@@ -1,4 +1,1 @@
-# echo ctfs
-# ctfs
-# CTFs
-# CTFs
+# Nathaniel Mickels CTFs completions
