@@ -1,0 +1,41 @@
+# Nmap 7.91 scan initiated Wed Sep 15 12:34:39 2021 as: nmap --script=smb-enum-users,smb-os-discovery,smb-enum-shares,smb-enum-groups,smb-enum-domains -p 135,139,445 -v -oN nmap/smb 10.10.238.67
+Nmap scan report for 10.10.238.67
+Host is up (0.19s latency).
+
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Host script results:
+| smb-enum-shares: 
+|   account_used: guest
+|   \\10.10.238.67\ADMIN$: 
+|     Type: STYPE_DISKTREE_HIDDEN
+|     Comment: Remote Admin
+|     Anonymous access: <none>
+|     Current user access: <none>
+|   \\10.10.238.67\C$: 
+|     Type: STYPE_DISKTREE_HIDDEN
+|     Comment: Default share
+|     Anonymous access: <none>
+|     Current user access: <none>
+|   \\10.10.238.67\IPC$: 
+|     Type: STYPE_IPC_HIDDEN
+|     Comment: Remote IPC
+|     Anonymous access: <none>
+|     Current user access: READ/WRITE
+|   \\10.10.238.67\nt4wrksv: 
+|     Type: STYPE_DISKTREE
+|     Comment: 
+|     Anonymous access: <none>
+|_    Current user access: READ/WRITE
+| smb-os-discovery: 
+|   OS: Windows Server 2016 Standard Evaluation 14393 (Windows Server 2016 Standard Evaluation 6.3)
+|   Computer name: Relevant
+|   NetBIOS computer name: RELEVANT\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2021-09-15T10:34:44-07:00
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Wed Sep 15 12:35:34 2021 -- 1 IP address (1 host up) scanned in 55.34 seconds

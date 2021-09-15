@@ -1,0 +1,69 @@
+# Nmap 7.91 scan initiated Wed Sep 15 12:41:12 2021 as: nmap -A -p- -oN nmap/aggressive -v 10.10.238.67
+Increasing send delay for 10.10.238.67 from 0 to 5 due to 56 out of 186 dropped probes since last increase.
+Increasing send delay for 10.10.238.67 from 5 to 10 due to 11 out of 13 dropped probes since last increase.
+Increasing send delay for 10.10.238.67 from 10 to 20 due to 11 out of 13 dropped probes since last increase.
+Nmap scan report for 10.10.238.67
+Host is up (0.14s latency).
+Not shown: 65527 filtered ports
+PORT      STATE SERVICE       VERSION
+80/tcp    open  http          Microsoft IIS httpd 10.0
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: IIS Windows Server
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds  Windows Server 2016 Standard Evaluation 14393 microsoft-ds
+3389/tcp  open  ms-wbt-server Microsoft Terminal Services
+| rdp-ntlm-info: 
+|   Target_Name: RELEVANT
+|   NetBIOS_Domain_Name: RELEVANT
+|   NetBIOS_Computer_Name: RELEVANT
+|   DNS_Domain_Name: Relevant
+|   DNS_Computer_Name: Relevant
+|   Product_Version: 10.0.14393
+|_  System_Time: 2021-09-15T17:55:49+00:00
+| ssl-cert: Subject: commonName=Relevant
+| Issuer: commonName=Relevant
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2021-09-14T17:01:31
+| Not valid after:  2022-03-16T17:01:31
+| MD5:   fc98 d694 c67d ff44 0bb6 83d4 6e21 91b7
+|_SHA-1: 1986 c988 764e 6350 4572 94fb c119 b07d 3589 499f
+|_ssl-date: 2021-09-15T17:56:28+00:00; 0s from scanner time.
+49663/tcp open  http          Microsoft IIS httpd 10.0
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: IIS Windows Server
+49667/tcp open  msrpc         Microsoft Windows RPC
+49669/tcp open  msrpc         Microsoft Windows RPC
+Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 1h24m00s, deviation: 3h07m50s, median: 0s
+| smb-os-discovery: 
+|   OS: Windows Server 2016 Standard Evaluation 14393 (Windows Server 2016 Standard Evaluation 6.3)
+|   Computer name: Relevant
+|   NetBIOS computer name: RELEVANT\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2021-09-15T10:55:50-07:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-09-15T17:55:53
+|_  start_date: 2021-09-15T17:01:46
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Sep 15 12:56:28 2021 -- 1 IP address (1 host up) scanned in 916.90 seconds
