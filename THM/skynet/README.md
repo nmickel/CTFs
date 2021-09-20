@@ -46,3 +46,10 @@ Host script results:
 |_  start_date: N/A
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+
+# Task 1
+
+```
+Miles Password
+
+Hidden Directory: /45kra24zxs28v3yd
