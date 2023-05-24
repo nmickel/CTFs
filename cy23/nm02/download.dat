@@ -1,0 +1,1504 @@
+0000000000000000 1F                              ???
+0000000000000001 13A34C4EEAA8                    ADC ESP,DWORD PTR [RBX-5715B1B4]
+0000000000000007 2B4154                          SUB EAX,DWORD PTR [RCX+54]
+000000000000000A E931842BCB                      JMP 0000000-34D47BC0
+000000000000000F 79E2                            JNS 00000000000000-D
+0000000000000011 36ED                            IN EAX,DX
+0000000000000013 70B7                            JO 0000000000000-34
+0000000000000015 9A                              ???
+0000000000000016 D8621B                          FSUB DWORD PTR [RDX+1B]
+0000000000000019 07                              ???
+000000000000001A 240B                            AND AL,0B
+000000000000001C AA                              STOS BYTE PTR [RDI],AL
+000000000000001D 2A6D9B                          SUB CH,BYTE PTR [RBP-65]
+0000000000000020 54                              PUSH RSP
+0000000000000021 A25334CD2F762118A7              MOV BYTE PTR [A71821762FCD3453],AL
+000000000000002A A6                              CMPS BYTE PTR [RDI],BYTE PTR [RSI]
+000000000000002B 44721F                          JB 000000000000004D
+000000000000002E 26A8C9                          TEST AL,C9
+0000000000000031 7B38                            JNP 000000000000006B
+0000000000000033 6443AA                          STOS BYTE PTR FS:[R15],AL
+0000000000000036 7F4A                            JG 0000000000000082
+0000000000000038 CE                              INTO
+0000000000000039 7AE4                            JP 000000000000001F
+000000000000003B E8D884D7AD                      CALL 0000000-52287AE8
+0000000000000040 7C7B                            JL 00000000000000BD
+0000000000000042 3682                            ???
+0000000000000044 9C                              PUSHFQ
+0000000000000045 4F294293                        SUB QWORD PTR [R10-6D],R8
+0000000000000049 9B                              WAIT
+000000000000004A 62B9446E50                      ???
+000000000000004F F7F4                            DIV EAX,ESP
+0000000000000051 94                              XCHG EAX,ESP
+0000000000000052 319B89DE8237                    XOR DWORD PTR [RBX+3782DE89],EBX
+0000000000000058 2C10                            SUB AL,10
+000000000000005A BF30E76D38                      MOV EDI,386DE730
+000000000000005F F3E86E7584BD                    REP  CALL 0000000-427B8A2D
+0000000000000065 9E                              SAHF
+0000000000000066 C7                              ???
+0000000000000067 50                              PUSH RAX
+0000000000000068 3A29                            CMP CH,BYTE PTR [RCX]
+000000000000006A A7                              CMPS DWORD PTR [RDI],DWORD PTR [RSI]
+000000000000006B E975A758CE                      JMP 0000000-31A7581B
+0000000000000070 FA                              CLI
+0000000000000071 7277                            JB 00000000000000EA
+0000000000000073 885AAA                          MOV BYTE PTR [RDX-56],BL
+0000000000000076 FB                              STI
+0000000000000077 1BA6FE2A1DC1                    SBB ESP,DWORD PTR [RSI-3EE2D502]
+000000000000007D A95C488A48                      TEST EAX,488A485C
+0000000000000082 46A9F96E338A                    TEST EAX,8A336EF9
+0000000000000088 06                              ???
+0000000000000089 1D0FBD65CE                      SBB EAX,CE65BD0F
+000000000000008E A7                              CMPS DWORD PTR [RDI],DWORD PTR [RSI]
+000000000000008F D836                            FDIV DWORD PTR [RSI]
+0000000000000091 222D11B4E780                    AND CH,BYTE PTR [0000000-7F184B58]
+0000000000000097 96                              XCHG EAX,ESI
+0000000000000098 895CB01E                        MOV DWORD PTR [RAX+RSI*4+1E],EBX
+000000000000009C 2038                            AND BYTE PTR [RAX],BH
+000000000000009E 28697E                          SUB BYTE PTR [RCX+7E],CH
+00000000000000A1 D17815                          SAR DWORD PTR [RAX+15],1
+00000000000000A4 B4B1                            MOV AH,B1
+00000000000000A6 B515                            MOV CH,15
+00000000000000A8 81B0ECDD9A6960FC6C8E            XOR DWORD PTR [RAX+699ADDEC],8E6CFC60
+00000000000000B2 E207                            LOOP 00000000000000BB
+00000000000000B4 58                              POP RAX
+00000000000000B5 EB6F                            JMP 0000000000000126
+00000000000000B7 EE                              OUT DX,AL
+00000000000000B8 B661                            MOV DH,61
+00000000000000BA CB                              RETF
+00000000000000BB 9E                              SAHF
+00000000000000BC 45741D                          JE 00000000000000DC
+00000000000000BF 16                              ???
+00000000000000C0 ED                              IN EAX,DX
+00000000000000C1 32CB                            XOR CL,BL
+00000000000000C3 9E                              SAHF
+00000000000000C4 E7E0                            OUT E0,EAX
+00000000000000C6 1F                              ???
+00000000000000C7 98                              CWDE
+00000000000000C8 CC                              INT 3
+00000000000000C9 FC                              CLD
+00000000000000CA 3236                            XOR DH,BYTE PTR [RSI]
+00000000000000CC 5C                              POP RSP
+00000000000000CD 2F                              ???
+00000000000000CE A2EA3DC260CB785EB6              MOV BYTE PTR [B65E78CB60C23DEA],AL
+00000000000000D7 DE7BC2                          FIDIVR WORD PTR [RBX-3E]
+00000000000000DA 7CC0                            JL 000000000000009C
+00000000000000DC 3699                            CDQ
+00000000000000DE D623CBA1C1                      VSRAPI V0{K3},V9,V9{BADC}
+00000000000000E3 B382                            MOV BL,82
+00000000000000E5 E04B                            LOOPNE 0000000000000132
+00000000000000E7 4EDC7D84                        FDIVR QWORD PTR [RBP-7C]
+00000000000000EB 39AC2623E9E883                  CMP DWORD PTR [RSI-7C1716DD],EBP
+00000000000000F2 B560                            MOV CH,60
+00000000000000F4 E26B                            LOOP 0000000000000161
+00000000000000F6 3E5D                            POP RBP
+00000000000000F8 2DBB1D6454                      SUB EAX,54641DBB
+00000000000000FD F38720                          REP  XCHG ESP,DWORD PTR [RAX]
+0000000000000100 95                              XCHG EAX,EBP
+0000000000000101 49D317                          RCL QWORD PTR [R15],CL
+0000000000000104 291E                            SUB DWORD PTR [RSI],EBX
+0000000000000106 6569BEA3F48106231F9E6E          IMUL EDI,DWORD PTR GS:[RSI+0681F4A3],6E9E1F23
+0000000000000111 659C                            PUSHFQ
+0000000000000113 8529                            TEST DWORD PTR [RCX],EBP
+0000000000000115 82                              ???
+0000000000000116 57                              PUSH RDI
+0000000000000117 F5                              CMC
+0000000000000118 342E                            XOR AL,2E
+000000000000011A 3A7356                          CMP DH,BYTE PTR [RBX+56]
+000000000000011D BC7CAB49AE                      MOV ESP,AE49AB7C
+0000000000000122 1DDB847E35                      SBB EAX,357E84DB
+0000000000000127 431229                          ADC BPL,BYTE PTR [R9]
+000000000000012A C4185CD3                        ???
+000000000000012E A6                              CMPS BYTE PTR [RDI],BYTE PTR [RSI]
+000000000000012F BB4943362C                      MOV EBX,2C364349
+0000000000000134 58                              POP RAX
+0000000000000135 857F9A                          TEST DWORD PTR [RDI-66],EDI
+0000000000000138 6926CFD4EE9A                    IMUL ESP,DWORD PTR [RSI],9AEED4CF
+000000000000013E 88887B6541C2                    MOV BYTE PTR [RAX-3DBE9A85],CL
+0000000000000144 4995                            XCHG RAX,RBP
+0000000000000146 F36B3135                        REP  IMUL ESI,DWORD PTR [RCX],00000035
+000000000000014A F0FE                            LOCK ???
+000000000000014C 6F                              OUTS DX,DWORD PTR [RSI]
+000000000000014D 5B                              POP RBX
+000000000000014E B238                            MOV DL,38
+0000000000000150 EB82                            JMP 00000000000000D4
+0000000000000152 FE                              ???
+0000000000000153 63EA                            MOVSXD EBP,EDX
+0000000000000155 E80A7D5507                      CALL 0000000-F8AA819C
+000000000000015A BC3EA34B65                      MOV ESP,654BA33E
+000000000000015F 688C28B121                      PUSH 21B1288C
+0000000000000164 1B1D5250D51C                    SBB EBX,DWORD PTR [0000000-E32AAE44]
+000000000000016A 06                              ???
+000000000000016B 93                              XCHG EAX,EBX
+000000000000016C C3                              RET
+000000000000016D F7BCF3DEFAA15E                  IDIV EAX,DWORD PTR [RBX+RSI*8+5EA1FADE]
+0000000000000174 A176AE1C39981F85FE              MOV EAX,DWORD PTR [FE851F98391CAE76]
+000000000000017D 8711                            XCHG EDX,DWORD PTR [RCX]
+000000000000017F 263933                          CMP DWORD PTR ES:[RBX],ESI
+0000000000000182 4156                            PUSH RSI
+0000000000000184 859263D652CC                    TEST DWORD PTR [RDX-33AD299D],EDX
+000000000000018A DA15C4968A29                    FICOM DWORD PTR [0000000-D67567AC]
+0000000000000190 0AA03120AF4D                    OR AH,BYTE PTR [RAX+4DAF2031]
+0000000000000196 5A                              POP RDX
+0000000000000197 476C                            INS BYTE PTR [R15],DX
+0000000000000199 DF45F3                          FILD WORD PTR [RBP-0D]
+000000000000019C F06B2C23AD                      LOCK IMUL EBP,DWORD PTR [RBX],FFFFFFAD
+00000000000001A1 82                              ???
+00000000000001A2 A93FE67F91                      TEST EAX,917FE63F
+00000000000001A7 B259                            MOV DL,59
+00000000000001A9 A6                              CMPS BYTE PTR [RDI],BYTE PTR [RSI]
+00000000000001AA 76EF                            JBE 000000000000019B
+00000000000001AC AF                              SCAS EAX,DWORD PTR [RDI]
+00000000000001AD 187F59                          SBB BYTE PTR [RDI+59],BH
+00000000000001B0 19B079C8FDD3                    SBB DWORD PTR [RAX-2C023787],ESI
+00000000000001B6 F69B2555DA3C                    NEG BYTE PTR [RBX+3CDA5525]
+00000000000001BC 089C66DC6FACF2                  OR BYTE PTR [RSI-0D539024],BL
+00000000000001C3 EF                              OUT DX,EAX
+00000000000001C4 3DA448E41B                      CMP EAX,1BE448A4
+00000000000001C9 389333B7EC4C                    CMP BYTE PTR [RBX+4CECB733],DL
+00000000000001CF 6865146539                      PUSH 39651465
+00000000000001D4 24CF                            AND AL,CF
+00000000000001D6 EB79                            JMP 0000000000000251
+00000000000001D8 2C8E                            SUB AL,8E
+00000000000001DA 39B555A7C1C4                    CMP DWORD PTR [RBP-3B3E58AB],ESI
+00000000000001E0 53                              PUSH RBX
+00000000000001E1 B3B3                            MOV BL,B3
+00000000000001E3 91                              XCHG EAX,ECX
+00000000000001E4 58                              POP RAX
+00000000000001E5 FC                              CLD
+00000000000001E6 7573                            JNE 000000000000025B
+00000000000001E8 348A                            XOR AL,8A
+00000000000001EA 6E                              OUTS DX,BYTE PTR [RSI]
+00000000000001EB BF4F353597                      MOV EDI,9735354F
+00000000000001F0 B9922B887E                      MOV ECX,7E882B92
+00000000000001F5 A4                              MOVS BYTE PTR [RDI],BYTE PTR [RSI]
+00000000000001F6 B4CD                            MOV AH,CD
+00000000000001F8 E696                            OUT 96,AL
+00000000000001FA 1852B2                          SBB BYTE PTR [RDX-4E],DL
+00000000000001FD 6D                              INS DWORD PTR [RDI],DX
+00000000000001FE 8D                              ???
+00000000000001FF ED                              IN EAX,DX
+0000000000000200 96                              XCHG EAX,ESI
+0000000000000201 93                              XCHG EAX,EBX
+0000000000000202 6D                              INS DWORD PTR [RDI],DX
+0000000000000203 5D                              POP RBP
+0000000000000204 EA                              ???
+0000000000000205 99                              CDQ
+0000000000000206 E650                            OUT 50,AL
+0000000000000208 F5                              CMC
+0000000000000209 DA4348                          FIADD DWORD PTR [RBX+48]
+000000000000020C 344A                            XOR AL,4A
+000000000000020E 1C67                            SBB AL,67
+0000000000000210 689441A3D5                      PUSH D5A34194
+0000000000000215 1F                              ???
+0000000000000216 8A7B27                          MOV BH,BYTE PTR [RBX+27]
+0000000000000219 DD                              ???
+000000000000021A 2D856B0B2B                      SUB EAX,2B0B6B85
+000000000000021F FE                              ???
+0000000000000220 7879                            JS 000000000000029B
+0000000000000222 E909184E08                      JMP 0000000-F7B1E5D0
+0000000000000227 65F23CE9                        REPNE  CMP AL,E9
+000000000000022B 36ED                            IN EAX,DX
+000000000000022D 059E4599EF                      ADD EAX,EF99459E
+0000000000000232 E97EFF73EA                      JMP 0000000-158BFE4B
+0000000000000237 17                              ???
+0000000000000238 4107                            ???
+000000000000023A AC                              LODS AL,BYTE PTR [RSI]
+000000000000023B AC                              LODS AL,BYTE PTR [RSI]
+000000000000023C 02C8                            ADD CL,AL
+000000000000023E AA                              STOS BYTE PTR [RDI],AL
+000000000000023F 7B32                            JNP 0000000000000273
+0000000000000241 83844AC18CAB3C99                ADD DWORD PTR [RDX+RCX*2+3CAB8CC1],FFFFFF99
+0000000000000249 9E                              SAHF
+000000000000024A AA                              STOS BYTE PTR [RDI],AL
+000000000000024B 69F88EC2968C                    IMUL EDI,EAX,8C96C28E
+0000000000000251 59                              POP RCX
+0000000000000252 85839726F8A7                    TEST DWORD PTR [RBX-5807D969],EAX
+0000000000000258 A0C268CC4CF807447C              MOV AL,BYTE PTR [7C4407F84CCC68C2]
+0000000000000261 4216                            ???
+0000000000000263 08F2                            OR DL,DH
+0000000000000265 C9                              LEAVE
+0000000000000266 C28CB4                          RET B48C
+0000000000000269 691C3D4535960ADDEE4444          IMUL EBX,DWORD PTR [RDI+0A963545],4444EEDD
+0000000000000274 DCEC                            FSUB ST(4),ST
+0000000000000276 A5                              MOVS DWORD PTR [RDI],DWORD PTR [RSI]
+0000000000000277 9E                              SAHF
+0000000000000278 54                              PUSH RSP
+0000000000000279 71EB                            JNO 0000000000000266
+000000000000027B 63F1                            MOVSXD ESI,ECX
+000000000000027D 5F                              POP RDI
+000000000000027E AB                              STOS DWORD PTR [RDI],EAX
+000000000000027F B680                            MOV DH,80
+0000000000000281 B45A                            MOV AH,5A
+0000000000000283 DA76D7                          FIDIV DWORD PTR [RSI-29]
+0000000000000286 8EDF                            MOV DS,EDI
+0000000000000288 E3BC                            JRCXZ 0000000000000246
+000000000000028A 1519421FE7                      ADC EAX,E71F4219
+000000000000028F 254376E12F                      AND EAX,2FE17643
+0000000000000294 1B80838D6BE6                    SBB EAX,DWORD PTR [RAX-1994727D]
+000000000000029A 7ECA                            JLE 0000000000000266
+000000000000029C 91                              XCHG EAX,ECX
+000000000000029D 344B                            XOR AL,4B
+000000000000029F 9C                              PUSHFQ
+00000000000002A0 79F8                            JNS 000000000000029A
+00000000000002A2 43E670                          OUT 70,AL
+00000000000002A5 30E4                            XOR AH,AH
+00000000000002A7 AB                              STOS DWORD PTR [RDI],EAX
+00000000000002A8 F1                              ICEBP
+00000000000002A9 363F                            ???
+00000000000002AB 1334B1                          ADC ESI,DWORD PTR [RCX+RSI*4]
+00000000000002AE 187727                          SBB BYTE PTR [RDI+27],DH
+00000000000002B1 FA                              CLI
+00000000000002B2 A6                              CMPS BYTE PTR [RDI],BYTE PTR [RSI]
+00000000000002B3 437A29                          JP 00000000000002DF
+00000000000002B6 D0E5                            SHL CH,1
+00000000000002B8 104EAF                          ADC BYTE PTR [RSI-51],CL
+00000000000002BB A183FA3EFCF281E362              MOV EAX,DWORD PTR [62E381F2FC3EFA83]
+00000000000002C4 B2C7                            MOV DL,C7
+00000000000002C6 DA3F                            FIDIVR DWORD PTR [RDI]
+00000000000002C8 D4                              ???
+00000000000002C9 CB                              RETF
+00000000000002CA 632F                            MOVSXD EBP,DWORD PTR [RDI]
+00000000000002CC DCFA                            FDIV ST(2),ST
+00000000000002CE 92                              XCHG EAX,EDX
+00000000000002CF 5C                              POP RSP
+00000000000002D0 95                              XCHG EAX,EBP
+00000000000002D1 06                              ???
+00000000000002D2 8437                            TEST BYTE PTR [RDI],DH
+00000000000002D4 93                              XCHG EAX,EBX
+00000000000002D5 82                              ???
+00000000000002D6 88986D72B9D2                    MOV BYTE PTR [RAX-2D468D93],BL
+00000000000002DC 696C4EAE9279CB03                IMUL EBP,DWORD PTR [RSI+RCX*2-52],03CB7992
+00000000000002E4 440AE8                          OR R13B,AL
+00000000000002E7 1F                              ???
+00000000000002E8 6E                              OUTS DX,BYTE PTR [RSI]
+00000000000002E9 07                              ???
+00000000000002EA EC                              IN AL,DX
+00000000000002EB 58                              POP RAX
+00000000000002EC 9A                              ???
+00000000000002ED 38ED                            CMP CH,CH
+00000000000002EF 9B                              WAIT
+00000000000002F0 D15343                          RCL DWORD PTR [RBX+43],1
+00000000000002F3 F9                              STC
+00000000000002F4 DCCA                            FMUL ST(2),ST
+00000000000002F6 D17D3A                          SAR DWORD PTR [RBP+3A],1
+00000000000002F9 37                              ???
+00000000000002FA 0D9675BC28                      OR EAX,28BC7596
+00000000000002FF EF                              OUT DX,EAX
+0000000000000300 773C                            JA 000000000000033E
+0000000000000302 337214                          XOR ESI,DWORD PTR [RDX+14]
+0000000000000305 42E1C2                          LOOPE 00000000000002CA
+0000000000000308 F38A6682                        REP  MOV AH,BYTE PTR [RSI-7E]
+000000000000030C 647153                          JNO 0000000000000362
+000000000000030F B7B5                            MOV BH,B5
+0000000000000311 4D93                            XCHG RAX,R11
+0000000000000313 7F1E                            JG 0000000000000333
+0000000000000315 9B                              WAIT
+0000000000000316 52                              PUSH RDX
+0000000000000317 C1B2C2866EEB75                  SAL DWORD PTR [RDX-1491793E],75
+000000000000031E E617                            OUT 17,AL
+0000000000000320 A9582BEC38                      TEST EAX,38EC2B58
+0000000000000325 380B                            CMP BYTE PTR [RBX],CL
+0000000000000327 7EE6                            JLE 000000000000030F
+0000000000000329 397258                          CMP DWORD PTR [RDX+58],ESI
+000000000000032C 8C29                            MOV WORD PTR [RCX],GS
+000000000000032E DD9BC8CF757D                    FSTP QWORD PTR [RBX+7D75CFC8]
+0000000000000334 EB86                            JMP 00000000000002BC
+0000000000000336 3AE1                            CMP AH,CL
+0000000000000338 C9                              LEAVE
+0000000000000339 F9                              STC
+000000000000033A 98                              CWDE
+000000000000033B 27                              ???
+000000000000033C 5A                              POP RDX
+000000000000033D 12BDDDD08060                    ADC BH,BYTE PTR [RBP+6080D0DD]
+0000000000000343 50                              PUSH RAX
+0000000000000344 37                              ???
+0000000000000345 6E                              OUTS DX,BYTE PTR [RSI]
+0000000000000346 37                              ???
+0000000000000347 70E0                            JO 0000000000000329
+0000000000000349 8F                              ???
+000000000000034A FD                              STD
+000000000000034B 99                              CDQ
+000000000000034C CD6C                            INT 6C
+000000000000034E 628CE1D686                      ???
+0000000000000353 801167                          ADC BYTE PTR [RCX],67
+0000000000000356 4AAF                            SCAS RAX,QWORD PTR [RDI]
+0000000000000358 F716                            NOT DWORD PTR [RSI]
+000000000000035A 4112E4                          ADC SPL,R12B
+000000000000035D 1E                              ???
+000000000000035E 1AFA                            SBB BH,DL
+0000000000000360 232E                            AND EBP,DWORD PTR [RSI]
+0000000000000362 61                              ???
+0000000000000363 06                              ???
+0000000000000364 95                              XCHG EAX,EBP
+0000000000000365 7F1F                            JG 0000000000000386
+0000000000000367 854FA9                          TEST DWORD PTR [RDI-57],ECX
+000000000000036A 42AC                            LODS AL,BYTE PTR [RSI]
+000000000000036C 0BCF                            OR ECX,EDI
+000000000000036E 8D                              ???
+000000000000036F EC                              IN AL,DX
+0000000000000370 27                              ???
+0000000000000371 F5                              CMC
+0000000000000372 ED                              IN EAX,DX
+0000000000000373 3E6A8D                          PUSH FFFFFFFFFFFFFF8D
+0000000000000376 DE61A4                          FISUB WORD PTR [RCX-5C]
+0000000000000379 2F                              ???
+000000000000037A 7488                            JE 0000000000000304
+000000000000037C 3D9F725BDE                      CMP EAX,DE5B729F
+0000000000000381 367435                          JE 00000000000003B9
+0000000000000384 27                              ???
+0000000000000385 6C                              INS BYTE PTR [RDI],DX
+0000000000000386 8921                            MOV DWORD PTR [RCX],ESP
+0000000000000388 0B3E                            OR EDI,DWORD PTR [RSI]
+000000000000038A 2BCA                            SUB ECX,EDX
+000000000000038C CC                              INT 3
+000000000000038D 07                              ???
+000000000000038E E2B1                            LOOP 0000000000000341
+0000000000000390 E521                            IN EAX,21
+0000000000000392 1C72                            SBB AL,72
+0000000000000394 FF                              ???
+0000000000000395 7E17                            JLE 00000000000003AE
+0000000000000397 1E                              ???
+0000000000000398 F29F                            REPNE  LAHF
+000000000000039A 5C                              POP RSP
+000000000000039B 82                              ???
+000000000000039C 11AD3FF50473                    ADC DWORD PTR [RBP+7304F53F],EBP
+00000000000003A2 477B3B                          JNP 00000000000003E0
+00000000000003A5 D99B3707B6F1                    FSTP DWORD PTR [RBX-0E49F8C9]
+00000000000003AB C3                              RET
+00000000000003AC BED47593F5                      MOV ESI,F59375D4
+00000000000003B1 92                              XCHG EAX,EDX
+00000000000003B2 06                              ???
+00000000000003B3 F5                              CMC
+00000000000003B4 01E0                            ADD EAX,ESP
+00000000000003B6 3F                              ???
+00000000000003B7 2BD5                            SUB EDX,EBP
+00000000000003B9 74CF                            JE 000000000000038A
+00000000000003BB 0DA4B40217                      OR EAX,1702B4A4
+00000000000003C0 FB                              STI
+00000000000003C1 8D43C5                          LEA EAX,[RBX-3B]
+00000000000003C4 187ACC                          SBB BYTE PTR [RDX-34],BH
+00000000000003C7 CF                              IRETD
+00000000000003C8 6C                              INS BYTE PTR [RDI],DX
+00000000000003C9 94                              XCHG EAX,ESP
+00000000000003CA 66C6                            ???
+00000000000003CC 16                              ???
+00000000000003CD 73A2                            JAE 0000000000000371
+00000000000003CF 0C2B                            OR AL,2B
+00000000000003D1 F73E                            IDIV EAX,DWORD PTR [RSI]
+00000000000003D3 1B489C                          SBB ECX,DWORD PTR [RAX-64]
+00000000000003D6 9A                              ???
+00000000000003D7 5E                              POP RSI
+00000000000003D8 A939548CFB                      TEST EAX,FB8C5439
+00000000000003DD DCA87C990CFB                    FSUBR QWORD PTR [RAX-04F36684]
+00000000000003E3 DD5886                          FSTP QWORD PTR [RAX-7A]
+00000000000003E6 FE                              ???
+00000000000003E7 285847                          SUB BYTE PTR [RAX+47],BL
+00000000000003EA 0E                              ???
+00000000000003EB 1B489E                          SBB ECX,DWORD PTR [RAX-62]
+00000000000003EE 197A10                          SBB DWORD PTR [RDX+10],EDI
+00000000000003F1 B95CA266A5                      MOV ECX,A566A25C
+00000000000003F6 A360DD7FA4567C6887              MOV DWORD PTR [87687C56A47FDD60],EAX
+00000000000003FF 4D679A                          ???
+0000000000000402 61                              ???
+0000000000000403 357F688AC2                      XOR EAX,C28A687F
+0000000000000408 9E                              SAHF
+0000000000000409 6280FD986A                      ???
+000000000000040E A6                              CMPS BYTE PTR [RDI],BYTE PTR [RSI]
+000000000000040F 51                              PUSH RCX
+0000000000000410 C6                              ???
+0000000000000411 48B86BEC18496BBC9FE7            MOV RAX,E79FBC6B4918EC6B
+000000000000041B 2427                            AND AL,27
+000000000000041D 348C                            XOR AL,8C
+000000000000041F 30DB                            XOR BL,BL
+0000000000000421 9F                              LAHF
+0000000000000422 88D1                            MOV CL,DL
+0000000000000424 2834FA                          SUB BYTE PTR [RDX+RDI*8],DH
+0000000000000427 3696                            XCHG EAX,ESI
+0000000000000429 7B33                            JNP 000000000000045E
+000000000000042B 2F                              ???
+000000000000042C E5D9                            IN EAX,D9
+000000000000042E 80AB213817D506                  SUB BYTE PTR [RBX-2AE8C7DF],06
+0000000000000435 07                              ???
+0000000000000436 8D                              ???
+0000000000000437 FF5F31                          CALL FWORD PTR [RDI+31]
+000000000000043A 2694                            XCHG EAX,ESP
+000000000000043C BD576F5DDF                      MOV EBP,DF5D6F57
+0000000000000441 408513                          TEST DWORD PTR [RBX],EDX
+0000000000000444 3ABBAAB5EED9                    CMP BH,BYTE PTR [RBX-26114A56]
+000000000000044A 9A                              ???
+000000000000044B C7                              ???
+000000000000044C 59                              POP RCX
+000000000000044D 46E8925DF6E2                    CALL 0000000-1D099E1B
+0000000000000453 BD6EEFBCCE                      MOV EBP,CEBCEF6E
+0000000000000458 21E3                            AND EBX,ESP
+000000000000045A 62DE3AD13B                      ???
+000000000000045F 1911                            SBB DWORD PTR [RCX],EDX
+0000000000000461 C02C4B7B                        SHR BYTE PTR [RBX+RCX*2],7B
+0000000000000465 D6169AF9                        ??? undefined{K2}
+0000000000000469 B309                            MOV BL,09
+000000000000046B E119                            LOOPE 0000000000000486
+000000000000046D 9B                              WAIT
+000000000000046E 3EF7DF                          NEG EDI
+0000000000000471 B7D6                            MOV BH,D6
+0000000000000473 DB84B8E9BAD6CD                  FILD DWORD PTR [RAX+RDI*4-32294517]
+000000000000047A 57                              PUSH RDI
+000000000000047B EA                              ???
+000000000000047C 8EE8                            MOV GS,EAX
+000000000000047E F681ADBE4F1DC4                  TEST BYTE PTR [RCX+1D4FBEAD],C4
+0000000000000485 DA07                            FIADD DWORD PTR [RDI]
+0000000000000487 77EA                            JA 0000000000000473
+0000000000000489 95                              XCHG EAX,EBP
+000000000000048A 99                              CDQ
+000000000000048B 7449                            JE 00000000000004D6
+000000000000048D 7A6C                            JP 00000000000004FB
+000000000000048F 2932                            SUB DWORD PTR [RDX],ESI
+0000000000000491 32F4                            XOR DH,AH
+0000000000000493 B6FB                            MOV DH,FB
+0000000000000495 DE61C2                          FISUB WORD PTR [RCX-3E]
+0000000000000498 9B                              WAIT
+0000000000000499 B9BD1A92A3                      MOV ECX,A3921ABD
+000000000000049E AC                              LODS AL,BYTE PTR [RSI]
+000000000000049F 351EB4E16B                      XOR EAX,6BE1B41E
+00000000000004A4 55                              PUSH RBP
+00000000000004A5 59                              POP RCX
+00000000000004A6 E9FEB28043                      JMP 0000000-BC7F4857
+00000000000004AB 49265D                          POP RBP
+00000000000004AE C4A3427B                        ???
+00000000000004B2 9F                              LAHF
+00000000000004B3 1DD51AC870                      SBB EAX,70C81AD5
+00000000000004B8 EC                              IN AL,DX
+00000000000004B9 719B                            JNO 0000000000000456
+00000000000004BB 2635A044E982                    XOR EAX,82E944A0
+00000000000004C1 AF                              SCAS EAX,DWORD PTR [RDI]
+00000000000004C2 3EDB993D8D1980                  FISTP DWORD PTR DS:[RCX-7FE672C3]
+00000000000004C9 D64085B3                        ??? undefined{K5}
+00000000000004CD 8AB9DA43AAE8                    MOV BH,BYTE PTR [RCX-1755BC26]
+00000000000004D3 18C4                            SBB AH,AL
+00000000000004D5 B089                            MOV AL,89
+00000000000004D7 B022                            MOV AL,22
+00000000000004D9 24D6                            AND AL,D6
+00000000000004DB 57                              PUSH RDI
+00000000000004DC C41A4046                        ???
+00000000000004E0 CA7F21                          RETF 217F
+00000000000004E3 63BCAE7C3C85BC                  MOVSXD EDI,DWORD PTR [RSI+RBP*4-437AC384]
+00000000000004EA C13846                          SAR DWORD PTR [RAX],46
+00000000000004ED 7A12                            JP 0000000000000501
+00000000000004EF 8924FA                          MOV DWORD PTR [RDX+RDI*8],ESP
+00000000000004F2 A2E8AB2B99CD4F6F24              MOV BYTE PTR [246F4FCD992BABE8],AL
+00000000000004FB 138A645A54E3                    ADC ECX,DWORD PTR [RDX-1CABA59C]
+0000000000000501 7BB7                            JNP 00000000000004BA
+0000000000000503 9F                              LAHF
+0000000000000504 2A33                            SUB DH,BYTE PTR [RBX]
+0000000000000506 DBAFF09CE736                    FLD TBYTE PTR [RDI+36E79CF0]
+000000000000050C 16                              ???
+000000000000050D F9                              STC
+000000000000050E C03AF4                          SAR BYTE PTR [RDX],F4
+0000000000000511 62239F8DBC                      ???
+0000000000000516 6C                              INS BYTE PTR [RDI],DX
+0000000000000517 DC2B                            FSUBR QWORD PTR [RBX]
+0000000000000519 90                              NOP
+000000000000051A EF                              OUT DX,EAX
+000000000000051B B5F4                            MOV CH,F4
+000000000000051D 499D                            POPFQ
+000000000000051F 8C5C077E                        MOV WORD PTR [RDI+RAX+7E],DS
+0000000000000523 FF4539                          INC DWORD PTR [RBP+39]
+0000000000000526 EE                              OUT DX,AL
+0000000000000527 4EF8                            CLC
+0000000000000529 51                              PUSH RCX
+000000000000052A A6                              CMPS BYTE PTR [RDI],BYTE PTR [RSI]
+000000000000052B 7EDA                            JLE 0000000000000507
+000000000000052D 40723C                          JB 000000000000056C
+0000000000000530 6311                            MOVSXD EDX,DWORD PTR [RCX]
+0000000000000532 C9                              LEAVE
+0000000000000533 1F                              ???
+0000000000000534 7DA5                            JGE 00000000000004DB
+0000000000000536 4BD9502D                        FST DWORD PTR [R8+2D]
+000000000000053A EA                              ???
+000000000000053B DAA3CA5192BE                    FISUB DWORD PTR [RBX-416DAE36]
+0000000000000541 A4                              MOVS BYTE PTR [RDI],BYTE PTR [RSI]
+0000000000000542 30A294B5BD9A                    XOR BYTE PTR [RDX-65424A6C],AH
+0000000000000548 3497                            XOR AL,97
+000000000000054A DAA6D43EB89D                    FISUB DWORD PTR [RSI-6247C12C]
+0000000000000550 5D                              POP RBP
+0000000000000551 3543A843D8                      XOR EAX,D843A843
+0000000000000556 A945B6B31F                      TEST EAX,1FB3B645
+000000000000055B 5A                              POP RDX
+000000000000055C 7D70                            JGE 00000000000005CE
+000000000000055E EC                              IN AL,DX
+000000000000055F 3C15                            CMP AL,15
+0000000000000561 1DDEA9D29B                      SBB EAX,9BD2A9DE
+0000000000000566 436331                          MOVSXD ESI,DWORD PTR [R9]
+0000000000000569 DAD7                            FCMOVBE ST,ST(7)
+000000000000056B 5B                              POP RBX
+000000000000056C 65A4                            MOVS BYTE PTR GS:[RDI],BYTE PTR GS:[RSI]
+000000000000056E B99AE761DD                      MOV ECX,DD61E79A
+0000000000000573 BFA2276BD4                      MOV EDI,D46B27A2
+0000000000000578 1D03BB2BC7                      SBB EAX,C72BBB03
+000000000000057D 7C7D                            JL 00000000000005FC
+000000000000057F 95                              XCHG EAX,EBP
+0000000000000580 57                              PUSH RDI
+0000000000000581 0ACF                            OR CL,BH
+0000000000000583 1B3B                            SBB EDI,DWORD PTR [RBX]
+0000000000000585 224D05                          AND CL,BYTE PTR [RBP+05]
+0000000000000588 F2B2CC                          REPNE  MOV DL,CC
+000000000000058B 4CFE                            ???
+000000000000058D 55                              PUSH RBP
+000000000000058E FB                              STI
+000000000000058F 7463                            JE 00000000000005F4
+0000000000000591 C7                              ???
+0000000000000592 6515FECEA0BC                    ADC EAX,BCA0CEFE
+0000000000000598 4952                            PUSH RDX
+000000000000059A 79C0                            JNS 000000000000055C
+000000000000059C 195216                          SBB DWORD PTR [RDX+16],EDX
+000000000000059F 89FE                            MOV ESI,EDI
+00000000000005A1 73CB                            JAE 000000000000056E
+00000000000005A3 12BD105639D5                    ADC BH,BYTE PTR [RBP-2AC6A9F0]
+00000000000005A9 251E34DC64                      AND EAX,64DC341E
+00000000000005AE 7053                            JO 0000000000000603
+00000000000005B0 B5CF                            MOV CH,CF
+00000000000005B2 3F                              ???
+00000000000005B3 C470FCDC                        ???
+00000000000005B7 27                              ???
+00000000000005B8 5C                              POP RSP
+00000000000005B9 ED                              IN EAX,DX
+00000000000005BA CC                              INT 3
+00000000000005BB 7E46                            JLE 0000000000000603
+00000000000005BD 5C                              POP RSP
+00000000000005BE 6E                              OUTS DX,BYTE PTR [RSI]
+00000000000005BF BA27716AF8                      MOV EDX,F86A7127
+00000000000005C4 76CE                            JBE 0000000000000594
+00000000000005C6 85C9                            TEST ECX,ECX
+00000000000005C8 16                              ???
+00000000000005C9 90                              NOP
+00000000000005CA 6E                              OUTS DX,BYTE PTR [RSI]
+00000000000005CB 6A1C                            PUSH 000000000000001C
+00000000000005CD 120D00E440FC                    ADC CL,BYTE PTR [00000000-3BF162D]
+00000000000005D3 F1                              ICEBP
+00000000000005D4 37                              ???
+00000000000005D5 1BFD                            SBB EDI,EBP
+00000000000005D7 F39A                            ???
+00000000000005D9 344F                            XOR AL,4F
+00000000000005DB F8                              CLC
+00000000000005DC EE                              OUT DX,AL
+00000000000005DD 676A49                          PUSH 0000000000000049
+00000000000005E0 5F                              POP RDI
+00000000000005E1 D107                            ROL DWORD PTR [RDI],1
+00000000000005E3 D5                              ???
+00000000000005E4 AA                              STOS BYTE PTR [RDI],AL
+00000000000005E5 283E                            SUB BYTE PTR [RSI],BH
+00000000000005E7 A10EEEBD1EBCD1F2FC              MOV EAX,DWORD PTR [FCF2D1BC1EBDEE0E]
+00000000000005F0 CE                              INTO
+00000000000005F1 E3FF                            JRCXZ 00000000000005F2
+00000000000005F3 3F                              ???
+00000000000005F4 A3DE78462377D59ED7              MOV DWORD PTR [D79ED577234678DE],EAX
+00000000000005FD 99                              CDQ
+00000000000005FE FE                              ???
+00000000000005FF B8A1C452CA                      MOV EAX,CA52C4A1
+0000000000000604 02F3                            ADD DH,BL
+0000000000000606 C8E1BD9C                        ENTER BDE1,9C
+000000000000060A D7                              XLAT BYTE PTR [RBX]
+000000000000060B DE8ED3AC71D3                    FIMUL WORD PTR [RSI-2C8E532D]
+0000000000000611 EC                              IN AL,DX
+0000000000000612 14B1                            ADC AL,B1
+0000000000000614 645B                            POP RBX
+0000000000000616 D4                              ???
+0000000000000617 DC30                            FDIV QWORD PTR [RAX]
+0000000000000619 DEC9                            FMULP ST(1),ST
+000000000000061B A97DB43399                      TEST EAX,9933B47D
+0000000000000620 F9                              STC
+0000000000000621 5F                              POP RDI
+0000000000000622 3929                            CMP DWORD PTR [RCX],EBP
+0000000000000624 9B                              WAIT
+0000000000000625 C744A8631B87F1EE                MOV DWORD PTR [RAX+RBP*4+63],EEF1871B
+000000000000062D 3363C1                          XOR ESP,DWORD PTR [RBX-3F]
+0000000000000630 1F                              ???
+0000000000000631 7773                            JA 00000000000006A6
+0000000000000633 84D2                            TEST DL,DL
+0000000000000635 4760                            ???
+0000000000000637 22529A                          AND DL,BYTE PTR [RDX-66]
+000000000000063A CA2DED                          RETF ED2D
+000000000000063D F3CD73                          REP  INT 73
+0000000000000640 F750DA                          NOT DWORD PTR [RAX-26]
+0000000000000643 3D4483A05F                      CMP EAX,5FA08344
+0000000000000648 A924E3DF5F                      TEST EAX,5FDFE324
+000000000000064D 5D                              POP RBP
+000000000000064E 6C                              INS BYTE PTR [RDI],DX
+000000000000064F 82                              ???
+0000000000000650 E13F                            LOOPE 0000000000000691
+0000000000000652 CA4141                          RETF 4141
+0000000000000655 EF                              OUT DX,EAX
+0000000000000656 6AED                            PUSH FFFFFFFFFFFFFFED
+0000000000000658 92                              XCHG EAX,EDX
+0000000000000659 48CDCE                          INT CE
+000000000000065C 20C4                            AND AH,AL
+000000000000065E 320E                            XOR CL,BYTE PTR [RSI]
+0000000000000660 680656921C                      PUSH 1C925606
+0000000000000665 473B31                          CMP R14D,DWORD PTR [R9]
+0000000000000668 2B1A                            SUB EBX,DWORD PTR [RDX]
+000000000000066A 82                              ???
+000000000000066B 2E14A4                          ADC AL,A4
+000000000000066E EF                              OUT DX,EAX
+000000000000066F 53                              PUSH RBX
+0000000000000670 6E                              OUTS DX,BYTE PTR [RSI]
+0000000000000671 30955E9A82F0                    XOR BYTE PTR [RBP-0F7D65A2],DL
+0000000000000677 E34F                            JRCXZ 00000000000006C8
+0000000000000679 BE35B12342                      MOV ESI,4223B135
+000000000000067E 82                              ???
+000000000000067F 88ABA34D1F56                    MOV BYTE PTR [RBX+561F4DA3],CH
+0000000000000685 5F                              POP RDI
+0000000000000686 D0FE                            SAR DH,1
+0000000000000688 81DE1226CD66                    SBB ESI,66CD2612
+000000000000068E 94                              XCHG EAX,ESP
+000000000000068F FD                              STD
+0000000000000690 FB                              STI
+0000000000000691 F297                            REPNE  XCHG EAX,EDI
+0000000000000693 7DE2                            JGE 0000000000000677
+0000000000000695 7ACD                            JP 0000000000000664
+0000000000000697 A07D28A2A16A242916              MOV AL,BYTE PTR [1629246AA1A2287D]
+00000000000006A0 C7                              ???
+00000000000006A1 7635                            JBE 00000000000006D8
+00000000000006A3 1DD651B57E                      SBB EAX,7EB551D6
+00000000000006A8 32D7                            XOR DL,BH
+00000000000006AA DB09                            FISTTP DWORD PTR [RCX]
+00000000000006AC 312A                            XOR DWORD PTR [RDX],EBP
+00000000000006AE D8E4                            FSUB ST,ST(4)
+00000000000006B0 44CE                            INTO
+00000000000006B2 7BFD                            JNP 00000000000006B1
+00000000000006B4 98                              CWDE
+00000000000006B5 73C1                            JAE 0000000000000678
+00000000000006B7 29DD                            SUB EBP,EBX
+00000000000006B9 6C                              INS BYTE PTR [RDI],DX
+00000000000006BA 4D7821                          JS 00000000000006DE
+00000000000006BD 47DB                            ???
+00000000000006BF 7315                            JAE 00000000000006D6
+00000000000006C1 3BC4                            CMP EAX,ESP
+00000000000006C3 CAB9F7                          RETF F7B9
+00000000000006C6 A284FD3AFC9C3F40A8              MOV BYTE PTR [A8403F9CFC3AFD84],AL
+00000000000006CF 26FF81AD3C82D7                  INC DWORD PTR ES:[RCX-287DC353]
+00000000000006D6 19EE                            SBB ESI,EBP
+00000000000006D8 2420                            AND AL,20
+00000000000006DA 7039                            JO 0000000000000715
+00000000000006DC 9E                              SAHF
+00000000000006DD 27                              ???
+00000000000006DE 6AF1                            PUSH FFFFFFFFFFFFFFF1
+00000000000006E0 E3B7                            JRCXZ 0000000000000699
+00000000000006E2 9C                              PUSHFQ
+00000000000006E3 82                              ???
+00000000000006E4 31C5                            XOR EBP,EAX
+00000000000006E6 D13E                            SAR DWORD PTR [RSI],1
+00000000000006E8 FFCD                            DEC EBP
+00000000000006EA DA3E                            FIDIVR DWORD PTR [RSI]
+00000000000006EC E8264D3124                      CALL 0000000-DBCEABE9
+00000000000006F1 98                              CWDE
+00000000000006F2 6E                              OUTS DX,BYTE PTR [RSI]
+00000000000006F3 96                              XCHG EAX,ESI
+00000000000006F4 37                              ???
+00000000000006F5 4D83E546                        AND R13,0000000000000046
+00000000000006F9 21CB                            AND EBX,ECX
+00000000000006FB 113F                            ADC DWORD PTR [RDI],EDI
+00000000000006FD 06                              ???
+00000000000006FE 8AF7                            MOV DH,BH
+0000000000000700 2997444D7741                    SUB DWORD PTR [RDI+41774D44],EDX
+0000000000000706 1B2B                            SBB EBP,DWORD PTR [RBX]
+0000000000000708 21F3                            AND EBX,ESI
+000000000000070A 4172D3                          JB 00000000000006E0
+000000000000070D 82                              ???
+000000000000070E 97                              XCHG EAX,EDI
+000000000000070F 6BE12D                          IMUL ESP,ECX,0000002D
+0000000000000712 93                              XCHG EAX,EBX
+0000000000000713 21F5                            AND EBP,ESI
+0000000000000715 D17667                          SAL DWORD PTR [RSI+67],1
+0000000000000718 E241                            LOOP 000000000000075B
+000000000000071A 7911                            JNS 000000000000072D
+000000000000071C 47F4                            HLT
+000000000000071E 18618B                          SBB BYTE PTR [RCX-75],AH
+0000000000000721 5C                              POP RSP
+0000000000000722 AE                              SCAS AL,BYTE PTR [RDI]
+0000000000000723 F29D                            REPNE  POPFQ
+0000000000000725 CA1DCF                          RETF CF1D
+0000000000000728 BD6F328E1C                      MOV EBP,1C8E326F
+000000000000072D 9F                              LAHF
+000000000000072E CC                              INT 3
+000000000000072F 2E78FE                          HNT  JS 0000000000000730
+0000000000000732 4DD5                            ???
+0000000000000734 16                              ???
+0000000000000735 B354                            MOV BL,54
+0000000000000737 3ACA                            CMP CL,DL
+0000000000000739 E54E                            IN EAX,4E
+000000000000073B 4926D4                          ???
+000000000000073E 61                              ???
+000000000000073F DC9F5157BF2E                    DCOMP QWORD PTR [RDI+2EBF5751]
+0000000000000745 17                              ???
+0000000000000746 6C                              INS BYTE PTR [RDI],DX
+0000000000000747 8D49FD                          LEA ECX,[RCX-03]
+000000000000074A 6F                              OUTS DX,DWORD PTR [RSI]
+000000000000074B 03EA                            ADD EBP,EDX
+000000000000074D 21EB                            AND EBX,EBP
+000000000000074F 6A16                            PUSH 0000000000000016
+0000000000000751 C8CB71FE                        ENTER 71CB,FE
+0000000000000755 0F1E                            ???
+0000000000000757 AC                              LODS AL,BYTE PTR [RSI]
+0000000000000758 53                              PUSH RBX
+0000000000000759 F33EC1395C                      REP  SAR DWORD PTR DS:[RCX],5C
+000000000000075E 8B2E                            MOV EBP,DWORD PTR [RSI]
+0000000000000760 6C                              INS BYTE PTR [RDI],DX
+0000000000000761 D2DD                            RCR CH,CL
+0000000000000763 8AFA                            MOV BH,DL
+0000000000000765 4A183437                        SBB BYTE PTR [RDI+R14],SIL
+0000000000000769 7748                            JA 00000000000007B3
+000000000000076B 11A9237BBFEC                    ADC DWORD PTR [RCX-134084DD],EBP
+0000000000000771 37                              ???
+0000000000000772 21EA                            AND EDX,EBP
+0000000000000774 363869A2                        CMP BYTE PTR SS:[RCX-5E],CH
+0000000000000778 3B55B5                          CMP EDX,DWORD PTR [RBP-4B]
+000000000000077B D01D68B6EA95                    RCR BYTE PTR [0000000-6A154217],1
+0000000000000781 8F993930                        ???
+0000000000000785 1D7CA791FD                      SBB EAX,FD91A77C
+000000000000078A C12335                          SHL DWORD PTR [RBX],35
+000000000000078D 7C22                            JL 00000000000007B1
+000000000000078F F8                              CLC
+0000000000000790 EE                              OUT DX,AL
+0000000000000791 409C                            PUSHFQ
+0000000000000793 51                              PUSH RCX
+0000000000000794 485F                            POP RDI
+0000000000000796 3835AA954771                    CMP BYTE PTR [0000000-8EB862BA],DH
+000000000000079C 1A61A6                          SBB AH,BYTE PTR [RCX-5A]
+000000000000079F 99                              CDQ
+00000000000007A0 FB                              STI
+00000000000007A1 E0C9                            LOOPNE 000000000000076C
+00000000000007A3 185C71A9                        SBB BYTE PTR [RCX+RSI*2-57],BL
+00000000000007A7 5A                              POP RDX
+00000000000007A8 32CC                            XOR CL,AH
+00000000000007AA 8F                              ???
+00000000000007AB AF                              SCAS EAX,DWORD PTR [RDI]
+00000000000007AC EE                              OUT DX,AL
+00000000000007AD 879D2E23EF76                    XCHG EBX,DWORD PTR [RBP+76EF232E]
+00000000000007B3 28E2                            SUB DL,AH
+00000000000007B5 FA                              CLI
+00000000000007B6 82                              ???
+00000000000007B7 8B4EF9                          MOV ECX,DWORD PTR [RSI-07]
+00000000000007BA 9C                              PUSHFQ
+00000000000007BB 58                              POP RAX
+00000000000007BC 5B                              POP RBX
+00000000000007BD 43F256                          REPNE  PUSH RSI
+00000000000007C0 23BB6E7F2C17                    AND EDI,DWORD PTR [RBX+172C7F6E]
+00000000000007C6 D95FE3                          FSTP DWORD PTR [RDI-1D]
+00000000000007C9 68ED2F0AB0                      PUSH B00A2FED
+00000000000007CE 139A773C7D71                    ADC EBX,DWORD PTR [RDX+717D3C77]
+00000000000007D4 BE8BFB8A51                      MOV ESI,518AFB8B
+00000000000007D9 713E                            JNO 0000000000000819
+00000000000007DB 8969BC                          MOV DWORD PTR [RCX-44],EBP
+00000000000007DE 5D                              POP RBP
+00000000000007DF 78AF                            JS 0000000000000790
+00000000000007E1 1E                              ???
+00000000000007E2 E645                            OUT 45,AL
+00000000000007E4 0D1CC5EA3B                      OR EAX,3BEAC51C
+00000000000007E9 CAA4D0                          RETF D0A4
+00000000000007EC A4                              MOVS BYTE PTR [RDI],BYTE PTR [RSI]
+00000000000007ED 1BC2                            SBB EAX,EDX
+00000000000007EF 18CC                            SBB AH,CL
+00000000000007F1 A2A4B82CF6295B76CF              MOV BYTE PTR [CF765B29F62CB8A4],AL
+00000000000007FA EC                              IN AL,DX
+00000000000007FB 231D54C22C3B                    AND EBX,DWORD PTR [0000000-C4D335AB]
+0000000000000801 07                              ???
+0000000000000802 3957DD                          CMP DWORD PTR [RDI-23],EDX
+0000000000000805 13839DBDC980                    ADC EAX,DWORD PTR [RBX-7F364263]
+000000000000080B F715A183E0CB                    NOT DWORD PTR [0000000-341F744E]
+0000000000000811 CE                              INTO
+0000000000000812 629A31F851                      ???
+0000000000000817 9D                              POPFQ
+0000000000000818 F613                            NOT BYTE PTR [RBX]
+000000000000081A CE                              INTO
+000000000000081B CC                              INT 3
+000000000000081C 60                              ???
+000000000000081D F08F                            LOCK ???
+000000000000081F 106324                          ADC BYTE PTR [RBX+24],AH
+0000000000000822 8D355DC71039                    LEA ESI,[0000000-C6EF307B]
+0000000000000828 D09031E632B4                    RCL BYTE PTR [RAX-4BCD19CF],1
+000000000000082E C6FD83                          XABORT 83
+0000000000000831 2898B420E951                    SUB BYTE PTR [RAX+51E920B4],BL
+0000000000000837 17                              ???
+0000000000000838 FD                              STD
+0000000000000839 1F                              ???
+000000000000083A E35D                            JRCXZ 0000000000000899
+000000000000083C F726                            MUL EAX,DWORD PTR [RSI]
+000000000000083E D7                              XLAT BYTE PTR [RBX]
+000000000000083F 397FBA                          CMP DWORD PTR [RDI-46],EDI
+0000000000000842 8F                              ???
+0000000000000843 4C2B82D92495E7                  SUB R8,QWORD PTR [RDX-186ADB27]
+000000000000084A 87B133E78966                    XCHG ESI,DWORD PTR [RCX+6689E733]
+0000000000000850 7104                            JNO 0000000000000856
+0000000000000852 A87F                            TEST AL,7F
+0000000000000854 A9B9EF7BA8                      TEST EAX,A87BEFB9
+0000000000000859 154C9F4C13                      ADC EAX,134C9F4C
+000000000000085E C8BBCE47                        ENTER CEBB,47
+0000000000000862 F7E9                            IMUL ECX
+0000000000000864 DAC1                            FCMOVB ST,ST(1)
+0000000000000866 1E                              ???
+0000000000000867 6B89611EC8D9B4                  IMUL ECX,DWORD PTR [RCX-2637E19F],FFFFFFB4
+000000000000086E 2F                              ???
+000000000000086F EA                              ???
+0000000000000870 FE                              ???
+0000000000000871 B6E4                            MOV DH,E4
+0000000000000873 99                              CDQ
+0000000000000874 55                              PUSH RBP
+0000000000000875 DB53D6                          FIST DWORD PTR [RBX-2A]
+0000000000000878 2F                              ???
+0000000000000879 1CCA                            SBB AL,CA
+000000000000087B F059                            LOCK POP RCX
+000000000000087D 55                              PUSH RBP
+000000000000087E AD                              LODS EAX,DWORD PTR [RSI]
+000000000000087F 3DD42BDA81                      CMP EAX,81DA2BD4
+0000000000000884 3CC0                            CMP AL,C0
+0000000000000886 8CC6                            MOV ESI,ES
+0000000000000888 21AA8EFB5EBD                    AND DWORD PTR [RDX-42A10472],EBP
+000000000000088E E55C                            IN EAX,5C
+0000000000000890 73C9                            JAE 000000000000085B
+0000000000000892 F5                              CMC
+0000000000000893 C8A4489F                        ENTER 48A4,9F
+0000000000000897 D36469C3                        SHL DWORD PTR [RCX+RBP*2-3D],CL
+000000000000089B BDBF70FB93                      MOV EBP,93FB70BF
+00000000000008A0 9C                              PUSHFQ
+00000000000008A1 D5                              ???
+00000000000008A2 14D8                            ADC AL,D8
+00000000000008A4 96                              XCHG EAX,ESI
+00000000000008A5 A09EB74A2CB2A8E997              MOV AL,BYTE PTR [97E9A8B22C4AB79E]
+00000000000008AE 45D60F9254                      ??? undefined{K2}
+00000000000008B3 41C4D7A62E                      ???
+00000000000008B8 9B                              WAIT
+00000000000008B9 63ED                            MOVSXD EBP,EBP
+00000000000008BB B5E8                            MOV CH,E8
+00000000000008BD 0A7349                          OR DH,BYTE PTR [RBX+49]
+00000000000008C0 58                              POP RAX
+00000000000008C1 0CA3                            OR AL,A3
+00000000000008C3 51                              PUSH RCX
+00000000000008C4 E81804B342                      CALL 0000000-BD4CF31F
+00000000000008C9 834CB2D912                      OR DWORD PTR [RDX+RSI*4-27],00000012
+00000000000008CE C26B73                          RET 736B
+00000000000008D1 06                              ???
+00000000000008D2 87B8EA9A3719                    XCHG EDI,DWORD PTR [RAX+19379AEA]
+00000000000008D8 6AED                            PUSH FFFFFFFFFFFFFFED
+00000000000008DA 017564                          ADD DWORD PTR [RBP+64],ESI
+00000000000008DD AC                              LODS AL,BYTE PTR [RSI]
+00000000000008DE D6CEE1F4                        ??? undefined{K1}
+00000000000008E2 4F61                            ???
+00000000000008E4 3F                              ???
+00000000000008E5 838A744FB757BD                  OR DWORD PTR [RDX+57B74F74],FFFFFFBD
+00000000000008EC DBCA                            FCMOVNE ST,ST(2)
+00000000000008EE B453                            MOV AH,53
+00000000000008F0 8B353E156C57                    MOV ESI,DWORD PTR [0000000-A893E1CC]
+00000000000008F6 85958F5B993B                    TEST DWORD PTR [RBP+3B995B8F],EDX
+00000000000008FC 31671C                          XOR DWORD PTR [RDI+1C],ESP
+00000000000008FF 25B67E653A                      AND EAX,3A657EB6
+0000000000000904 8D989BFDE49C                    LEA EBX,[RAX-631B0265]
+000000000000090A 9B                              WAIT
+000000000000090B AF                              SCAS EAX,DWORD PTR [RDI]
+000000000000090C E2D3                            LOOP 00000000000008E1
+000000000000090E 6335B4B9FA2C                    MOVSXD ESI,DWORD PTR [0000000-D3053D38]
+0000000000000914 BE8FBB1928                      MOV ESI,2819BB8F
+0000000000000919 F6                              ???
+000000000000091A 4A8F                            ???
+000000000000091C 137046                          ADC ESI,DWORD PTR [RAX+46]
+000000000000091F 91                              XCHG EAX,ECX
+0000000000000920 D5                              ???
+0000000000000921 8099AE9588CDF4                  SBB BYTE PTR [RCX-32776A52],F4
+0000000000000928 27                              ???
+0000000000000929 BCD6FA1FCA                      MOV ESP,CA1FFAD6
+000000000000092E FD                              STD
+000000000000092F 96                              XCHG EAX,ESI
+0000000000000930 DB979697B1BE                    FIST DWORD PTR [RDI-414E686A]
+0000000000000936 8D                              ???
+0000000000000937 FB                              STI
+0000000000000938 4EA06B94314014CAEE1D            MOV AL,BYTE PTR [1DEECA144031946B]
+0000000000000942 227B2A                          AND BH,BYTE PTR [RBX+2A]
+0000000000000945 17                              ???
+0000000000000946 A2E6ED9D6F94CDF027              MOV BYTE PTR [27F0CD946F9DEDE6],AL
+000000000000094F 7696                            JBE 00000000000008E7
+0000000000000951 BE27544C23                      MOV ESI,234C5427
+0000000000000956 A2EC8E361ECF4AE8BD              MOV BYTE PTR [BDE84ACF1E368EEC],AL
+000000000000095F 67B389                          MOV BL,89
+0000000000000962 122DB78F787E                    ADC CH,BYTE PTR [0000000-818766E1]
+0000000000000968 9C                              PUSHFQ
+0000000000000969 45D9EB                          FLDPI
+000000000000096C D39FAAFBF3F6                    RCR DWORD PTR [RDI-090C0456],CL
+0000000000000972 1E                              ???
+0000000000000973 96                              XCHG EAX,ESI
+0000000000000974 E2AC                            LOOP 0000000000000922
+0000000000000976 CC                              INT 3
+0000000000000977 07                              ???
+0000000000000978 B17E                            MOV CL,7E
+000000000000097A 93                              XCHG EAX,EBX
+000000000000097B 97                              XCHG EAX,EDI
+000000000000097C EF                              OUT DX,EAX
+000000000000097D 471101                          ADC DWORD PTR [R9],R8D
+0000000000000980 64C8825C46                      ENTER 5C82,46
+0000000000000985 2E886337                        MOV BYTE PTR CS:[RBX+37],AH
+0000000000000989 7436                            JE 00000000000009C1
+000000000000098B D61E31CA                        ??? undefined{K1}
+000000000000098F 144F                            ADC AL,4F
+0000000000000991 60                              ???
+0000000000000992 F6FC                            IDIV AH
+0000000000000994 2CF7                            SUB AL,F7
+0000000000000996 7743                            JA 00000000000009DB
+0000000000000998 E0B0                            LOOPNE 000000000000094A
+000000000000099A C2D422                          RET 22D4
+000000000000099D D2EA                            SHR DL,CL
+000000000000099F 6E                              OUTS DX,BYTE PTR [RSI]
+00000000000009A0 5A                              POP RDX
+00000000000009A1 F33603EB                        REP  ADD EBP,EBX
+00000000000009A5 BC3752FF94                      MOV ESP,94FF5237
+00000000000009AA C4D2B166                        ???
+00000000000009AE 17                              ???
+00000000000009AF A7                              CMPS DWORD PTR [RDI],DWORD PTR [RSI]
+00000000000009B0 65876A24                        XCHG EBP,DWORD PTR GS:[RDX+24]
+00000000000009B4 FE                              ???
+00000000000009B5 EE                              OUT DX,AL
+00000000000009B6 62F9EA83C0                      ???
+00000000000009BB 7AED                            JP 00000000000009AA
+00000000000009BD 2F                              ???
+00000000000009BE D4                              ???
+00000000000009BF FC                              CLD
+00000000000009C0 62343A1DF7                      ???
+00000000000009C5 B04D                            MOV AL,4D
+00000000000009C7 F0FC                            LOCK CLD
+00000000000009C9 9A                              ???
+00000000000009CA 1B12                            SBB EDX,DWORD PTR [RDX]
+00000000000009CC FC                              CLD
+00000000000009CD 96                              XCHG EAX,ESI
+00000000000009CE 8854C2AA                        MOV BYTE PTR [RDX+RAX*8-56],DL
+00000000000009D2 3F                              ???
+00000000000009D3 A10D299B8D55932C28              MOV EAX,DWORD PTR [282C93558D9B290D]
+00000000000009DC 86BEEA3AF983                    XCHG BH,BYTE PTR [RSI-7C06C516]
+00000000000009E2 1A95522A5EF3                    SBB DL,BYTE PTR [RBP-0CA1D5AE]
+00000000000009E8 DB7EBD                          FSTP TBYTE PTR [RSI-43]
+00000000000009EB 33F3                            XOR ESI,EBX
+00000000000009ED FE06                            INC BYTE PTR [RSI]
+00000000000009EF 9E                              SAHF
+00000000000009F0 2DA7AB4733                      SUB EAX,3347ABA7
+00000000000009F5 289CD654B556BA                  SUB BYTE PTR [RSI+RDX*8-45A94AAC],BL
+00000000000009FC 40A6                            CMPS BYTE PTR [RDI],BYTE PTR [RSI]
+00000000000009FE 348D                            XOR AL,8D
+0000000000000A00 7AC9                            JP 00000000000009CB
+0000000000000A02 DF9518C37878                    FIST WORD PTR [RBP+7878C318]
+0000000000000A08 A4                              MOVS BYTE PTR [RDI],BYTE PTR [RSI]
+0000000000000A09 7B7E                            JNP 0000000000000A89
+0000000000000A0B AB                              STOS DWORD PTR [RDI],EAX
+0000000000000A0C 09AC52A4E385DD                  OR DWORD PTR [RDX+RDX*2-227A1C5C],EBP
+0000000000000A13 85C2                            TEST EDX,EAX
+0000000000000A15 235B2D                          AND EBX,DWORD PTR [RBX+2D]
+0000000000000A18 2D9BD330E3                      SUB EAX,E330D39B
+0000000000000A1D AB                              STOS DWORD PTR [RDI],EAX
+0000000000000A1E DC80A42DCDB3                    FADD QWORD PTR [RAX-4C32D25C]
+0000000000000A24 58                              POP RAX
+0000000000000A25 4E67C3                          RET
+0000000000000A28 CD02                            INT 02
+0000000000000A2A DD                              ???
+0000000000000A2B 6955724CEB4FCD                  IMUL EDX,DWORD PTR [RBP+72],CD4FEB4C
+0000000000000A32 37                              ???
+0000000000000A33 6202EA44DC                      ???
+0000000000000A38 97                              XCHG EAX,EDI
+0000000000000A39 77EA                            JA 0000000000000A25
+0000000000000A3B C225A2                          RET A225
+0000000000000A3E CC                              INT 3
+0000000000000A3F 7883                            JS 00000000000009C4
+0000000000000A41 9A                              ???
+0000000000000A42 2BDB                            SUB EBX,EBX
+0000000000000A44 D883AF95967C                    FADD DWORD PTR [RBX+7C9695AF]
+0000000000000A4A FE                              ???
+0000000000000A4B EBEF                            JMP 0000000000000A3C
+0000000000000A4D 4BC73F090E910B                  XBEGIN 0000000-F46EE7A3
+0000000000000A54 E8D5E885DC                      CALL 0000000-237A0CD2
+0000000000000A59 3427                            XOR AL,27
+0000000000000A5B 3661                            ???
+0000000000000A5D EE                              OUT DX,AL
+0000000000000A5E BE9A917C57                      MOV ESI,577C919A
+0000000000000A63 19B651721D20                    SBB DWORD PTR [RSI+201D7251],ESI
+0000000000000A69 61                              ???
+0000000000000A6A DB141D4E5AD381                  FIST DWORD PTR [RBX-7E2CA5B2]
+0000000000000A71 56                              PUSH RSI
+0000000000000A72 CC                              INT 3
+0000000000000A73 57                              PUSH RDI
+0000000000000A74 3F                              ???
+0000000000000A75 4CA4                            MOVS BYTE PTR [RDI],BYTE PTR [RSI]
+0000000000000A77 F28F28689E044237                REPNE  VPMACSDD XMM8,XMM2,XMMWORD PTR [RDX+R8*2],XMM3
+0000000000000A7F 1C07                            SBB AL,07
+0000000000000A81 B8B76CCFD9                      MOV EAX,D9CF6CB7
+0000000000000A86 3EC5E6F1                        ???
+0000000000000A8A 7CBD                            JL 0000000000000A49
+0000000000000A8C 629F51B95B                      ???
+0000000000000A91 B8F8985DEB                      MOV EAX,EB5D98F8
+0000000000000A96 27                              ???
+0000000000000A97 7643                            JBE 0000000000000ADC
+0000000000000A99 B58A                            MOV CH,8A
+0000000000000A9B 95                              XCHG EAX,EBP
+0000000000000A9C FC                              CLD
+0000000000000A9D 96                              XCHG EAX,ESI
+0000000000000A9E 9D                              POPFQ
+0000000000000A9F A5                              MOVS DWORD PTR [RDI],DWORD PTR [RSI]
+0000000000000AA0 4E0A6527                        OR R12B,BYTE PTR [RBP+27]
+0000000000000AA4 392B                            CMP DWORD PTR [RBX],EBP
+0000000000000AA6 0E                              ???
+0000000000000AA7 2932                            SUB DWORD PTR [RDX],ESI
+0000000000000AA9 CA0995                          RETF 9509
+0000000000000AAC 695B5EB504475D                  IMUL EBX,DWORD PTR [RBX+5E],5D4704B5
+0000000000000AB3 622274D876                      ??? undefined{Z}
+0000000000000AB8 2A530C                          SUB DL,BYTE PTR [RBX+0C]
+0000000000000ABB 16                              ???
+0000000000000ABC F9                              STC
+0000000000000ABD 99                              CDQ
+0000000000000ABE BC3794115E                      MOV ESP,5E119437
+0000000000000AC3 DD4C6CF6                        FISTTP QWORD PTR [RSP+RBP*2-0A]
+0000000000000AC7 7F26                            JG 0000000000000AEF
+0000000000000AC9 F1                              ICEBP
+0000000000000ACA 485B                            POP RBX
+0000000000000ACC 63455F                          MOVSXD EAX,DWORD PTR [RBP+5F]
+0000000000000ACF AA                              STOS BYTE PTR [RDI],AL
+0000000000000AD0 92                              XCHG EAX,EDX
+0000000000000AD1 B1CD                            MOV CL,CD
+0000000000000AD3 07                              ???
+0000000000000AD4 9A                              ???
+0000000000000AD5 3321                            XOR ESP,DWORD PTR [RCX]
+0000000000000AD7 ED                              IN EAX,DX
+0000000000000AD8 3F                              ???
+0000000000000AD9 48D6D8F51E                      ??? undefined{K5}
+0000000000000ADE 6D                              INS DWORD PTR [RDI],DX
+0000000000000ADF 16                              ???
+0000000000000AE0 6D                              INS DWORD PTR [RDI],DX
+0000000000000AE1 3A52CA                          CMP DL,BYTE PTR [RDX-36]
+0000000000000AE4 3C1F                            CMP AL,1F
+0000000000000AE6 12D6                            ADC DL,DH
+0000000000000AE8 717C                            JNO 0000000000000B66
+0000000000000AEA 39B6DBD4498D                    CMP DWORD PTR [RSI-72B62B25],ESI
+0000000000000AF0 A14117D4730513BBDB              MOV EAX,DWORD PTR [DBBB130573D41741]
+0000000000000AF9 EC                              IN AL,DX
+0000000000000AFA AE                              SCAS AL,BYTE PTR [RDI]
+0000000000000AFB A4                              MOVS BYTE PTR [RDI],BYTE PTR [RSI]
+0000000000000AFC 9B                              WAIT
+0000000000000AFD 7578                            JNE 0000000000000B77
+0000000000000AFF 40A11B4DC02D5A28451E            MOV EAX,DWORD PTR [1E45285A2DC04D1B]
+0000000000000B09 C3                              RET
+0000000000000B0A B2DB                            MOV DL,DB
+0000000000000B0C 84AB51C5C336                    TEST BYTE PTR [RBX+36C3C551],CH
+0000000000000B12 38C8                            CMP AL,CL
+0000000000000B14 49E494                          IN AL,94
+0000000000000B17 2695                            XCHG EAX,EBP
+0000000000000B19 8E64CD5E                        MOV FS,WORD PTR [RBP+RCX*8+5E]
+0000000000000B1D 456E                            OUTS DX,BYTE PTR [R14]
+0000000000000B1F 7992                            JNS 0000000000000AB3
+0000000000000B21 2F                              ???
+0000000000000B22 A7                              CMPS DWORD PTR [RDI],DWORD PTR [RSI]
+0000000000000B23 EC                              IN AL,DX
+0000000000000B24 57                              PUSH RDI
+0000000000000B25 EC                              IN AL,DX
+0000000000000B26 A1A9EE622E89B3F44C              MOV EAX,DWORD PTR [4CF4B3892E62EEA9]
+0000000000000B2F EA                              ???
+0000000000000B30 2D052411A9                      SUB EAX,A9112405
+0000000000000B35 4AA7                            CMPS QWORD PTR [RDI],QWORD PTR [RSI]
+0000000000000B37 27                              ???
+0000000000000B38 BAE3FD9F3A                      MOV EDX,3A9FFDE3
+0000000000000B3D D5                              ???
+0000000000000B3E 385DCF                          CMP BYTE PTR [RBP-31],BL
+0000000000000B41 A7                              CMPS DWORD PTR [RDI],DWORD PTR [RSI]
+0000000000000B42 233E                            AND EDI,DWORD PTR [RSI]
+0000000000000B44 67C4E84627                      ???
+0000000000000B49 06                              ???
+0000000000000B4A CF                              IRETD
+0000000000000B4B EA                              ???
+0000000000000B4C FB                              STI
+0000000000000B4D 1CC5                            SBB AL,C5
+0000000000000B4F 2811                            SUB BYTE PTR [RCX],DL
+0000000000000B51 F9                              STC
+0000000000000B52 39BB33DD2EEB                    CMP DWORD PTR [RBX-14D122CD],EDI
+0000000000000B58 4C8D                            ???
+0000000000000B5A FFA5B64D655D                    JMP QWORD PTR [RBP+5D654DB6]
+0000000000000B60 6A3B                            PUSH 000000000000003B
+0000000000000B62 53                              PUSH RBX
+0000000000000B63 58                              POP RAX
+0000000000000B64 BFB5C82BB3                      MOV EDI,B32BC8B5
+0000000000000B69 78DC                            JS 0000000000000B47
+0000000000000B6B 80CA5E                          OR DL,5E
+0000000000000B6E 9F                              LAHF
+0000000000000B6F 5D                              POP RBP
+0000000000000B70 F9                              STC
+0000000000000B71 52                              PUSH RDX
+0000000000000B72 9A                              ???
+0000000000000B73 7818                            JS 0000000000000B8D
+0000000000000B75 55                              PUSH RBP
+0000000000000B76 389644DE4C92                    CMP BYTE PTR [RSI-6DB321BC],DL
+0000000000000B7C 4399                            CDQ
+0000000000000B7E F2E74F                          REPNE  OUT 4F,EAX
+0000000000000B81 28633A                          SUB BYTE PTR [RBX+3A],AH
+0000000000000B84 84E5                            TEST CH,AH
+0000000000000B86 E5BC                            IN EAX,BC
+0000000000000B88 63BDB90997AE                    MOVSXD EDI,DWORD PTR [RBP-5168F647]
+0000000000000B8E D92CD8                          FLDCW WORD PTR [RAX+RBX*8]
+0000000000000B91 7994                            JNS 0000000000000B27
+0000000000000B93 ED                              IN EAX,DX
+0000000000000B94 ED                              IN EAX,DX
+0000000000000B95 D7                              XLAT BYTE PTR [RBX]
+0000000000000B96 713A                            JNO 0000000000000BD2
+0000000000000B98 BB3A5EF4DA                      MOV EBX,DAF45E3A
+0000000000000B9D 8C68CC                          MOV WORD PTR [RAX-34],GS
+0000000000000BA0 129B7461F9D0                    ADC BL,BYTE PTR [RBX-2F069E8C]
+0000000000000BA6 27                              ???
+0000000000000BA7 34AB                            XOR AL,AB
+0000000000000BA9 B8CD26A560                      MOV EAX,60A526CD
+0000000000000BAE F32DF9413AE6                    REP  SUB EAX,E63A41F9
+0000000000000BB4 18AB21D3E67F                    SBB BYTE PTR [RBX+7FE6D321],CH
+0000000000000BBA C7C0C2F8C1EC                    MOV EAX,ECC1F8C2
+0000000000000BC0 A17FC3D1A7F87C5FC5              MOV EAX,DWORD PTR [C55F7CF8A7D1C37F]
+0000000000000BC9 A242595311FD66B5EE              MOV BYTE PTR [EEB566FD11535942],AL
+0000000000000BD2 17                              ???
+0000000000000BD3 26C1FDA6                        SAR EBP,A6
+0000000000000BD7 88BDB2B749D0                    MOV BYTE PTR [RBP-2FB6484E],BH
+0000000000000BDD 814A50451BF73D                  OR DWORD PTR [RDX+50],3DF71B45
+0000000000000BE4 98                              CWDE
+0000000000000BE5 56                              PUSH RSI
+0000000000000BE6 23A5A28D08C4                    AND ESP,DWORD PTR [RBP-3BF7725E]
+0000000000000BEC 7A6F                            JP 0000000000000C5D
+0000000000000BEE 74C9                            JE 0000000000000BB9
+0000000000000BF0 5E                              POP RSI
+0000000000000BF1 7356                            JAE 0000000000000C49
+0000000000000BF3 B19D                            MOV CL,9D
+0000000000000BF5 FC                              CLD
+0000000000000BF6 8CB96129B185                    MOV WORD PTR [RCX-7A4ED69F],ST(-1)
+0000000000000BFC CE                              INTO
+0000000000000BFD B5D7                            MOV CH,D7
+0000000000000BFF 8E29                            MOV GS,WORD PTR [RCX]
+0000000000000C01 A10389C4A93C41A1FB              MOV EAX,DWORD PTR [FBA1413CA9C48903]
+0000000000000C0A C11658                          RCL DWORD PTR [RSI],58
+0000000000000C0D 56                              PUSH RSI
+0000000000000C0E 25CBAC30E4                      AND EAX,E430ACCB
+0000000000000C13 8BF9                            MOV EDI,ECX
+0000000000000C15 AF                              SCAS EAX,DWORD PTR [RDI]
+0000000000000C16 22B4A3A673697D                  AND DH,BYTE PTR [RBX+7D6973A6]
+0000000000000C1D F1                              ICEBP
+0000000000000C1E 831EF5                          SBB DWORD PTR [RSI],FFFFFFF5
+0000000000000C21 1CD3                            SBB AL,D3
+0000000000000C23 AE                              SCAS AL,BYTE PTR [RDI]
+0000000000000C24 4925439D1519                    AND RAX,0000000019159D43
+0000000000000C2A F5                              CMC
+0000000000000C2B 6B3EC0                          IMUL EDI,DWORD PTR [RSI],FFFFFFC0
+0000000000000C2E 186FA4                          SBB BYTE PTR [RDI-5C],CH
+0000000000000C31 A36853C5739EFFDAD4              MOV DWORD PTR [D4DAFF9E73C55368],EAX
+0000000000000C3A 96                              XCHG EAX,ESI
+0000000000000C3B BAECC7A93D                      MOV EDX,3DA9C7EC
+0000000000000C40 95                              XCHG EAX,EBP
+0000000000000C41 E321                            JRCXZ 0000000000000C64
+0000000000000C43 27                              ???
+0000000000000C44 3824C4                          CMP BYTE PTR [RSP+RAX*8],AH
+0000000000000C47 4D3EBAB97C7AD1EB1F7453          MOV R10,53741FEBD17A7CB9
+0000000000000C52 723A                            JB 0000000000000C8E
+0000000000000C54 C6                              ???
+0000000000000C55 1039                            ADC BYTE PTR [RCX],BH
+0000000000000C57 A1E4D05BD1974E2CE8              MOV EAX,DWORD PTR [E82C4E97D15BD0E4]
+0000000000000C60 305320                          XOR BYTE PTR [RBX+20],DL
+0000000000000C63 54                              PUSH RSP
+0000000000000C64 186D92                          SBB BYTE PTR [RBP-6E],CH
+0000000000000C67 D226                            SHL BYTE PTR [RSI],CL
+0000000000000C69 F4                              HLT
+0000000000000C6A CF                              IRETD
+0000000000000C6B 7FA6                            JG 0000000000000C13
+0000000000000C6D B6C4                            MOV DH,C4
+0000000000000C6F ED                              IN EAX,DX
+0000000000000C70 EA                              ???
+0000000000000C71 61                              ???
+0000000000000C72 4EED                            IN RAX,DX
+0000000000000C74 FB                              STI
+0000000000000C75 5D                              POP RBP
+0000000000000C76 3AF1                            CMP DH,CL
+0000000000000C78 0A44715B                        OR AL,BYTE PTR [RCX+RSI*2+5B]
+0000000000000C7C 27                              ???
+0000000000000C7D 3F                              ???
+0000000000000C7E DE2C71                          FISUBR WORD PTR [RCX+RSI*2]
+0000000000000C81 D37DF8                          SAR DWORD PTR [RBP-08],CL
+0000000000000C84 AC                              LODS AL,BYTE PTR [RSI]
+0000000000000C85 9B                              WAIT
+0000000000000C86 1B1D8FDA8D36                    SBB EBX,DWORD PTR [0000000-C97218E5]
+0000000000000C8C 91                              XCHG EAX,ECX
+0000000000000C8D 42147B                          ADC AL,7B
+0000000000000C90 A35359AEB849FBAC90              MOV DWORD PTR [90ACFB49B8AE5953],EAX
+0000000000000C99 105F4D                          ADC BYTE PTR [RDI+4D],BL
+0000000000000C9C 41CB                            RETF
+0000000000000C9E 2A78AA                          SUB BH,BYTE PTR [RAX-56]
+0000000000000CA1 B542                            MOV CH,42
+0000000000000CA3 5B                              POP RBX
+0000000000000CA4 661A58EE                        SBB BL,BYTE PTR [RAX-12]
+0000000000000CA8 DC12                            FCOM QWORD PTR [RDX]
+0000000000000CAA 3E8D                            ???
+0000000000000CAC D4                              ???
+0000000000000CAD 43E772                          OUT 72,EAX
+0000000000000CB0 F4                              HLT
+0000000000000CB1 6C                              INS BYTE PTR [RDI],DX
+0000000000000CB2 12AF3513B525                    ADC CH,BYTE PTR [RDI+25B51335]
+0000000000000CB8 54                              PUSH RSP
+0000000000000CB9 8932                            MOV DWORD PTR [RDX],ESI
+0000000000000CBB 07                              ???
+0000000000000CBC 3CCA                            CMP AL,CA
+0000000000000CBE 284E25                          SUB BYTE PTR [RSI+25],CL
+0000000000000CC1 8E687E                          MOV GS,WORD PTR [RAX+7E]
+0000000000000CC4 9C                              PUSHFQ
+0000000000000CC5 56                              PUSH RSI
+0000000000000CC6 3F                              ???
+0000000000000CC7 BF64489DA8                      MOV EDI,A89D4864
+0000000000000CCC 8614D7                          XCHG DL,BYTE PTR [RDI+RDX*8]
+0000000000000CCF CC                              INT 3
+0000000000000CD0 D5                              ???
+0000000000000CD1 2BF2                            SUB ESI,EDX
+0000000000000CD3 73D1                            JAE 0000000000000CA6
+0000000000000CD5 17                              ???
+0000000000000CD6 C85A59DF                        ENTER 595A,DF
+0000000000000CDA 8B16                            MOV EDX,DWORD PTR [RSI]
+0000000000000CDC 720F                            JB 0000000000000CED
+0000000000000CDE F8                              CLC
+0000000000000CDF DA                              ???
+0000000000000CE0 E67B                            OUT 7B,AL
+0000000000000CE2 4BBD4AA2292A7CA18BCA            MOV RBP,CA8BA17C2A29A24A
+0000000000000CEC 2E59                            POP RCX
+0000000000000CEE 1A4A4B                          SBB CL,BYTE PTR [RDX+4B]
+0000000000000CF1 8E1B                            MOV DS,WORD PTR [RBX]
+0000000000000CF3 635665                          MOVSXD EDX,DWORD PTR [RSI+65]
+0000000000000CF6 BD25FC397F                      MOV EBP,7F39FC25
+0000000000000CFB BC62E72D17                      MOV ESP,172DE762
+0000000000000D00 93                              XCHG EAX,EBX
+0000000000000D01 01C8                            ADD EAX,ECX
+0000000000000D03 352AE2B1CC                      XOR EAX,CCB1E22A
+0000000000000D08 7E7B                            JLE 0000000000000D85
+0000000000000D0A EA                              ???
+0000000000000D0B C7862503143666AA6138            MOV DWORD PTR [RSI+36140325],3861AA66
+0000000000000D15 96                              XCHG EAX,ESI
+0000000000000D16 D7                              XLAT BYTE PTR [RBX]
+0000000000000D17 1887838B6EB9                    SBB BYTE PTR [RDI-4691747D],AL
+0000000000000D1D 2F                              ???
+0000000000000D1E 1B25B36DD4DE                    SBB ESP,DWORD PTR [0000000-212B8529]
+0000000000000D24 899BC548473D                    MOV DWORD PTR [RBX+3D4748C5],EBX
+0000000000000D2A AA                              STOS BYTE PTR [RDI],AL
+0000000000000D2B 97                              XCHG EAX,EDI
+0000000000000D2C 6E                              OUTS DX,BYTE PTR [RSI]
+0000000000000D2D EE                              OUT DX,AL
+0000000000000D2E 9E                              SAHF
+0000000000000D2F D4                              ???
+0000000000000D30 98                              CWDE
+0000000000000D31 FFCA                            DEC EDX
+0000000000000D33 16                              ???
+0000000000000D34 D7                              XLAT BYTE PTR [RBX]
+0000000000000D35 E29E                            LOOP 0000000000000CD5
+0000000000000D37 5B                              POP RBX
+0000000000000D38 6E                              OUTS DX,BYTE PTR [RSI]
+0000000000000D39 0D0BFFEBE5                      OR EAX,E5EBFF0B
+0000000000000D3E C258B9                          RET B958
+0000000000000D41 A0E254652A9BA3D432              MOV AL,BYTE PTR [32D4A39B2A6554E2]
+0000000000000D4A 11C2                            ADC EDX,EAX
+0000000000000D4C D0E6                            SHL DH,1
+0000000000000D4E 5A                              POP RDX
+0000000000000D4F D0F2                            SAL DL,1
+0000000000000D51 FB                              STI
+0000000000000D52 3D70252226                      CMP EAX,26222570
+0000000000000D57 5F                              POP RDI
+0000000000000D58 3E61                            ???
+0000000000000D5A 4DEC                            IN AL,DX
+0000000000000D5C BD73784771                      MOV EBP,71477873
+0000000000000D61 9D                              POPFQ
+0000000000000D62 8D                              ???
+0000000000000D63 D4                              ???
+0000000000000D64 37                              ???
+0000000000000D65 3801                            CMP BYTE PTR [RCX],AL
+0000000000000D67 7A59                            JP 0000000000000DC2
+0000000000000D69 1DA7677344                      SBB EAX,447367A7
+0000000000000D6E 66A3083DA55A515A98E7            MOV WORD PTR [E7985A515AA53D08],AX
+0000000000000D78 6E                              OUTS DX,BYTE PTR [RSI]
+0000000000000D79 77B2                            JA 0000000000000D2D
+0000000000000D7B 45AE                            SCAS AL,BYTE PTR [R15]
+0000000000000D7D 36BDC7E9AA81                    MOV EBP,81AAE9C7
+0000000000000D83 1A21                            SBB AH,BYTE PTR [RCX]
+0000000000000D85 26AB                            STOS DWORD PTR ES:[RDI],EAX
+0000000000000D87 FB                              STI
+0000000000000D88 9C                              PUSHFQ
+0000000000000D89 2330                            AND ESI,DWORD PTR [RAX]
+0000000000000D8B E28D                            LOOP 0000000000000D1A
+0000000000000D8D 60                              ???
+0000000000000D8E 6567B5B6                        MOV CH,B6
+0000000000000D92 8F                              ???
+0000000000000D93 A34F7D1A1C3C837808              MOV DWORD PTR [0878833C1C1A7D4F],EAX
+0000000000000D9C F4                              HLT
+0000000000000D9D 51                              PUSH RCX
+0000000000000D9E A99C634BBE                      TEST EAX,BE4B639C
+0000000000000DA3 DD                              ???
+0000000000000DA4 FB                              STI
+0000000000000DA5 6892E66C8F                      PUSH 8F6CE692
+0000000000000DAA 46D1F7                          SAL EDI,1
+0000000000000DAD FB                              STI
+0000000000000DAE DC5FA8                          DCOMP QWORD PTR [RDI-58]
+0000000000000DB1 0AF8                            OR BH,AL
+0000000000000DB3 89AB04B63E8C                    MOV DWORD PTR [RBX-73C149FC],EBP
+0000000000000DB9 BF22DE58CF                      MOV EDI,CF58DE22
+0000000000000DBE 4194                            XCHG EAX,ESP
+0000000000000DC0 7E1F                            JLE 0000000000000DE1
+0000000000000DC2 8F                              ???
+0000000000000DC3 D6AFBE4D                        ??? undefined{K6}
+0000000000000DC7 68A2AA8812                      PUSH 1288AAA2
+0000000000000DCC 684E130490                      PUSH 9004134E
+0000000000000DD1 B89F403228                      MOV EAX,2832409F
+0000000000000DD6 CE                              INTO
+0000000000000DD7 F4                              HLT
+0000000000000DD8 56                              PUSH RSI
+0000000000000DD9 B380                            MOV BL,80
+0000000000000DDB 4ACC                            INT 3
+0000000000000DDD C7                              ???
+0000000000000DDE 2BC5                            SUB EAX,EBP
+0000000000000DE0 C595C0                          ???
+0000000000000DE3 A96C4AD314                      TEST EAX,14D34A6C
+0000000000000DE8 CC                              INT 3
+0000000000000DE9 F9                              STC
+0000000000000DEA 98                              CWDE
+0000000000000DEB AD                              LODS EAX,DWORD PTR [RSI]
+0000000000000DEC 2A9D3DE23C7D                    SUB BL,BYTE PTR [RBP+7D3CE23D]
+0000000000000DF2 E63E                            OUT 3E,AL
+0000000000000DF4 A6                              CMPS BYTE PTR [RDI],BYTE PTR [RSI]
+0000000000000DF5 B432                            MOV AH,32
+0000000000000DF7 FC                              CLD
+0000000000000DF8 68B346347A                      PUSH 7A3446B3
+0000000000000DFD 71F9                            JNO 0000000000000DF8
+0000000000000DFF 3F                              ???
+0000000000000E00 6B9E8724BC86D0                  IMUL EBX,DWORD PTR [RSI-7943DB79],FFFFFFD0
+0000000000000E07 B51F                            MOV CH,1F
+0000000000000E09 7DDF                            JGE 0000000000000DEA
+0000000000000E0B BCBAC2F837                      MOV ESP,37F8C2BA
+0000000000000E10 A836                            TEST AL,36
+0000000000000E12 DD5C68D9                        FSTP QWORD PTR [RAX+RBP*2-27]
+0000000000000E16 C41B1FF9                        ???
+0000000000000E1A 96                              XCHG EAX,ESI
+0000000000000E1B 90                              NOP
+0000000000000E1C F2D5                            ???
+0000000000000E1E 97                              XCHG EAX,EDI
+0000000000000E1F AC                              LODS AL,BYTE PTR [RSI]
+0000000000000E20 BE9B07A908                      MOV ESI,08A9079B
+0000000000000E25 02FA                            ADD BH,DL
+0000000000000E27 FF                              ???
+0000000000000E28 DF6BB7                          FILD QWORD PTR [RBX-49]
+0000000000000E2B D163EE                          SHL DWORD PTR [RBX-12],1
+0000000000000E2E 7999                            JNS 0000000000000DC9
+0000000000000E30 CC                              INT 3
+0000000000000E31 D5                              ???
+0000000000000E32 1A59A1                          SBB BL,BYTE PTR [RCX-5F]
+0000000000000E35 DC593B                          DCOMP QWORD PTR [RCX+3B]
+0000000000000E38 3558588EC3                      XOR EAX,C38E5858
+0000000000000E3D 146F                            ADC AL,6F
+0000000000000E3F 6E                              OUTS DX,BYTE PTR [RSI]
+0000000000000E40 1C08                            SBB AL,08
+0000000000000E42 661F                            ???
+0000000000000E44 0355EF                          ADD EDX,DWORD PTR [RBP-11]
+0000000000000E47 FA                              CLI
+0000000000000E48 015D03                          ADD DWORD PTR [RBP+03],EBX
+0000000000000E4B 4499                            CDQ
+0000000000000E4D CD01                            INT 01
+0000000000000E4F E9D75B8BA3                      JMP 0000000-5C7495D5
+0000000000000E54 A4                              MOVS BYTE PTR [RDI],BYTE PTR [RSI]
+0000000000000E55 B6D9                            MOV DH,D9
+0000000000000E57 0D1F67C23C                      OR EAX,3CC2671F
+0000000000000E5C 72E4                            JB 0000000000000E42
+0000000000000E5E FD                              STD
+0000000000000E5F F8                              CLC
+0000000000000E60 45ED                            IN EAX,DX
+0000000000000E62 2DA4ECCDB9                      SUB EAX,B9CDECA4
+0000000000000E67 BCD0BD56C8                      MOV ESP,C856BDD0
+0000000000000E6C D23A                            SAR BYTE PTR [RDX],CL
+0000000000000E6E 3DCC43D273                      CMP EAX,73D243CC
+0000000000000E73 2CDF                            SUB AL,DF
+0000000000000E75 82                              ???
+0000000000000E76 84AFB64BCDF6                    TEST BYTE PTR [RDI-0932B44A],CH
+0000000000000E7C 1B5244                          SBB EDX,DWORD PTR [RDX+44]
+0000000000000E7F EE                              OUT DX,AL
+0000000000000E80 2C83                            SUB AL,83
+0000000000000E82 AB                              STOS DWORD PTR [RDI],EAX
+0000000000000E83 082F                            OR BYTE PTR [RDI],CH
+0000000000000E85 6803FFBEDC                      PUSH DCBEFF03
+0000000000000E8A D1FF                            SAR EDI,1
+0000000000000E8C 7D0F                            JGE 0000000000000E9D
+0000000000000E8E BBBD22EDDB                      MOV EBX,DBED22BD
+0000000000000E93 1B1525167AE1                    SBB EDX,DWORD PTR [0000000-1E85DB42]
+0000000000000E99 F5                              CMC
+0000000000000E9A DB96192A79E2                    FIST DWORD PTR [RSI-1D86D5E7]
+0000000000000EA0 6429645BA9                      SUB DWORD PTR FS:[RBX+RBX*2-57],ESP
+0000000000000EA5 A3569670758D407049              MOV DWORD PTR [4970408D75709656],EAX
+0000000000000EAE 4E93                            XCHG RAX,R11
+0000000000000EB0 3629AE4C4EC4C6                  SUB DWORD PTR SS:[RSI-393BB1B4],EBP
+0000000000000EB7 2F                              ???
+0000000000000EB8 B9A1C6D2CB                      MOV ECX,CBD2C6A1
+0000000000000EBD 3F                              ???
+0000000000000EBE B430                            MOV AH,30
+0000000000000EC0 68188B11BC                      PUSH BC118B18
+0000000000000EC5 E1A8                            LOOPE 0000000000000E6F
+0000000000000EC7 2C57                            SUB AL,57
+0000000000000EC9 356DC77EBB                      XOR EAX,BB7EC76D
+0000000000000ECE 5A                              POP RDX
+0000000000000ECF B5E4                            MOV CH,E4
+0000000000000ED1 8132CCC76185                    XOR DWORD PTR [RDX],8561C7CC
+0000000000000ED7 6827583466                      PUSH 66345827
+0000000000000EDC C6                              ???
+0000000000000EDD 4CE25E                          LOOP 0000000000000F3E
+0000000000000EE0 FE0E                            DEC BYTE PTR [RSI]
+0000000000000EE2 1D088D27BD                      SBB EAX,BD278D08
+0000000000000EE7 7AEF                            JP 0000000000000ED8
+0000000000000EE9 3C35                            CMP AL,35
+0000000000000EEB 49F1                            ICEBP
+0000000000000EED 1952F2                          SBB DWORD PTR [RDX-0E],EDX
+0000000000000EF0 4B1E                            ???
+0000000000000EF2 B9ADA421D4                      MOV ECX,D421A4AD
+0000000000000EF7 FC                              CLD
+0000000000000EF8 55                              PUSH RBP
+0000000000000EF9 3B8B992DA8E9                    CMP ECX,DWORD PTR [RBX-1657D267]
+0000000000000EFF E797                            OUT 97,EAX
+0000000000000F01 11CA                            ADC EDX,ECX
+0000000000000F03 02F9                            ADD BH,CL
+0000000000000F05 68F6BCCD95                      PUSH 95CDBCF6
+0000000000000F0A CE                              INTO
+0000000000000F0B 52                              PUSH RDX
+0000000000000F0C B4E3                            MOV AH,E3
+0000000000000F0E 1497                            ADC AL,97
+0000000000000F10 DEED                            FSUBP ST(5),ST
+0000000000000F12 28B2E97EEDF2                    SUB BYTE PTR [RDX-0D128117],DH
+0000000000000F18 37                              ???
+0000000000000F19 F71F                            NEG DWORD PTR [RDI]
+0000000000000F1B E0E0                            LOOPNE 0000000000000EFD
+0000000000000F1D 2E59                            POP RCX
+0000000000000F1F 52                              PUSH RDX
+0000000000000F20 4AF9                            STC
+0000000000000F22 81E089ECAC62                    AND EAX,62ACEC89
+0000000000000F28 4892                            XCHG RAX,RDX
+0000000000000F2A 8D96C3D69DA1                    LEA EDX,[RSI-5E62293D]
+0000000000000F30 C4C553AD                        ???
+0000000000000F34 43419F                          LAHF
+0000000000000F37 7B38                            JNP 0000000000000F71
+0000000000000F39 BF5B18EDB4                      MOV EDI,B4ED185B
+0000000000000F3E 6A37                            PUSH 0000000000000037
+0000000000000F40 AD                              LODS EAX,DWORD PTR [RSI]
+0000000000000F41 EB17                            JMP 0000000000000F5A
+0000000000000F43 36D7                            XLAT BYTE PTR SS:[RBX]
+0000000000000F45 C4981F56                        ???
+0000000000000F49 25B519FC52                      AND EAX,52FC19B5
+0000000000000F4E BAC018D6D5                      MOV EDX,D5D618C0
+0000000000000F53 B4ED                            MOV AH,ED
+0000000000000F55 D686CC31                        ??? undefined{K4}
+0000000000000F59 9F                              LAHF
+0000000000000F5A B9E59F093F                      MOV ECX,3F099FE5
+0000000000000F5F 57                              PUSH RDI
+0000000000000F60 C9                              LEAVE
+0000000000000F61 CC                              INT 3
+0000000000000F62 CB                              RETF
+0000000000000F63 62EC2187A1                      ???
+0000000000000F68 3A83F4F443C2                    CMP AL,BYTE PTR [RBX-3DBC0B0C]
+0000000000000F6E B167                            MOV CL,67
+0000000000000F70 50                              PUSH RAX
+0000000000000F71 BE3ED78A6F                      MOV ESI,6F8AD73E
+0000000000000F76 7643                            JBE 0000000000000FBB
+0000000000000F78 55                              PUSH RBP
+0000000000000F79 7F33                            JG 0000000000000FAE
+0000000000000F7B E8743AB141                      CALL 0000000-BE4EB60C
+0000000000000F80 61                              ???
+0000000000000F81 32D2                            XOR DL,DL
+0000000000000F83 79BC                            JNS 0000000000000F41
+0000000000000F85 E621                            OUT 21,AL
+0000000000000F87 EC                              IN AL,DX
+0000000000000F88 25662C                          AND EAX,00000NAN
